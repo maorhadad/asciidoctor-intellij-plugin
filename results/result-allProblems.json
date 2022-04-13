@@ -1143,66 +1143,6 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'ifndef'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 19,
-      "offset": 2,
-      "length": 6,
-      "code": {
-        "startLine": 17,
-        "length": 6,
-        "offset": 24,
-        "surroundingCode": "[source,asciidoc]\n----\n\\ifndef::env-idea[]\nRender this text WHEN NOT running IntelliJ Asciidoctor Plugin.\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "ca329b5171a060eb63fe6bdf7d5c4482007b5521386b21dd6a008d0fd68b5b5e"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'ifdef'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 23,
-      "offset": 2,
-      "length": 5,
-      "code": {
-        "startLine": 21,
-        "length": 5,
-        "offset": 13,
-        "surroundingCode": "\\endif::[]\n\n\\ifdef::env-idea[]\nRender this text IF running IntelliJ Asciidoctor Plugin.\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "a729b46c0e468f99a8bbf7bf98f8cfc00c5de4a8ccc29e16aeef38f95777478c"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
   "comment": "Typo: In word 'ifeval'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
@@ -1258,6 +1198,66 @@
     "baselineState": "unchanged"
   },
   "hash": "c93694662a02ac1050144d7e143c901cc415e240625d87479c2c0909d797dcac"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifndef'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 19,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 17,
+        "length": 6,
+        "offset": 24,
+        "surroundingCode": "[source,asciidoc]\n----\n\\ifndef::env-idea[]\nRender this text WHEN NOT running IntelliJ Asciidoctor Plugin.\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "ca329b5171a060eb63fe6bdf7d5c4482007b5521386b21dd6a008d0fd68b5b5e"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifdef'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 23,
+      "offset": 2,
+      "length": 5,
+      "code": {
+        "startLine": 21,
+        "length": 5,
+        "offset": 13,
+        "surroundingCode": "\\endif::[]\n\n\\ifdef::env-idea[]\nRender this text IF running IntelliJ Asciidoctor Plugin.\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "a729b46c0e468f99a8bbf7bf98f8cfc00c5de4a8ccc29e16aeef38f95777478c"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3070,36 +3070,6 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
       "language": "AsciiDoc",
-      "line": 25,
-      "offset": 7,
-      "length": 2,
-      "code": {
-        "startLine": 23,
-        "length": 2,
-        "offset": 82,
-        "surroundingCode": "\\ifdef::env-idea[]\nRender this text IF running IntelliJ Asciidoctor Plugin.\n\\endif::[]\n----\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "5d225d16416e3982757ec66882b7a613d52770d195aa456933bd598da8dd6141"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
-  "comment": "Too many punctuation marks",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
       "line": 38,
       "offset": 7,
       "length": 2,
@@ -3118,6 +3088,36 @@
     "baselineState": "unchanged"
   },
   "hash": "b4e3a933038a8f093e4d129d72c8516688653c40c434f95c96ec43a731141932"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Too many punctuation marks",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 25,
+      "offset": 7,
+      "length": 2,
+      "code": {
+        "startLine": 23,
+        "length": 2,
+        "offset": 82,
+        "surroundingCode": "\\ifdef::env-idea[]\nRender this text IF running IntelliJ Asciidoctor Plugin.\n\\endif::[]\n----\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "5d225d16416e3982757ec66882b7a613d52770d195aa456933bd598da8dd6141"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
