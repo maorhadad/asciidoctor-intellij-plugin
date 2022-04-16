@@ -1660,11 +1660,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/editor.adoc",
       "language": "AsciiDoc",
-      "line": 102,
+      "line": 104,
       "offset": 75,
       "length": 5,
       "code": {
-        "startLine": 100,
+        "startLine": 102,
         "length": 5,
         "offset": 334,
         "surroundingCode": "Starting with IntelliJ 2020.1, the bundled https://plugins.jetbrains.com/plugin/12175-grazie/[Grazie plugin] highlights possible grammar and spelling mistakes in the editor.\nAs of plugin version 0.36.2, every heading and paragraph of the text will be checked.\nIt supports multiple languages: Once the user configured the languages in IDE's proofreading settings, the plugin detects the language of a section automatically.\nAs it performs all checks locally with the help of libraries from https://languagetool.org/, it doesn't submit text written in the IDE to a third party cloud service.\n"
@@ -1677,7 +1677,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "15dec427fdfaa4a2500b3aef4dca8cb986719314f69479c15c3c64d266e5b716"
+  "hash": "682eccd5f215a62341654f61cdf2966addf5baeabe080d0c15965379aad6792f"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1690,11 +1690,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/editor.adoc",
       "language": "AsciiDoc",
-      "line": 168,
+      "line": 171,
       "offset": 159,
       "length": 5,
       "code": {
-        "startLine": 166,
+        "startLine": 169,
         "length": 5,
         "offset": 259,
         "surroundingCode": "Inline Commands::\nAll inline commands need to be in backticks and need to show as a monospaced text.\nThe plugin will show the run icon only when it identifies it as a command that is available via the https://www.jetbrains.com/help/idea/running-anything.html[IDE's Run Anything] functionality.\n\n== Writing"
@@ -1706,7 +1706,7 @@
     "inspectionName": "SpellCheckingInspection",
     "baselineState": "new"
   },
-  "hash": "925ec07d61ce59506534eef35f260dba7c3eda695aec34215749ef6832579196"
+  "hash": "be9285ae6d71bbe2915ece8a25a1d47bfd879c9cc1f9ee27a34d6b1874ee67ff"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3489,11 +3489,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/editor.adoc",
       "language": "AsciiDoc",
-      "line": 60,
+      "line": 62,
       "offset": 127,
       "length": 4,
       "code": {
-        "startLine": 58,
+        "startLine": 60,
         "length": 4,
         "offset": 296,
         "surroundingCode": "// see: AsciiDocReferenceContributor and AsciiDocJavaReferenceContributor for the creation of references\n// see: AsciiDocJavaReference for the resolution of Java classes\nThe user can navigate using kbd:[Ctrl+Click] and kbd:[Ctrl+B] from a file name or Java class name in backticks (as monospaced text like +++`filename.txt`+++ or +++`JavaClassName`+++) or in underscores (as italic text like +++_filename.txt_+++ or +++_JavaClassName_+++) or asterisks (as bold text like +++*filename.txt*+++ or +++*JavaClassName*+++).\nThe plugin tries to rename occurrences of files and Java classes in the AsciiDoc file when the user renames the file or the class.\n"
@@ -3506,7 +3506,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "6fb2997c6b6181c4239b866f460e62845b76d85da479f605bb91caa6313f2490"
+  "hash": "cda7e7a4bd5d9b42483251488972a7d5d5e3c2e65ad9c6243558ef90d297019d"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3519,11 +3519,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/editor.adoc",
       "language": "AsciiDoc",
-      "line": 60,
+      "line": 62,
       "offset": 213,
       "length": 4,
       "code": {
-        "startLine": 58,
+        "startLine": 60,
         "length": 4,
         "offset": 382,
         "surroundingCode": "// see: AsciiDocReferenceContributor and AsciiDocJavaReferenceContributor for the creation of references\n// see: AsciiDocJavaReference for the resolution of Java classes\nThe user can navigate using kbd:[Ctrl+Click] and kbd:[Ctrl+B] from a file name or Java class name in backticks (as monospaced text like +++`filename.txt`+++ or +++`JavaClassName`+++) or in underscores (as italic text like +++_filename.txt_+++ or +++_JavaClassName_+++) or asterisks (as bold text like +++*filename.txt*+++ or +++*JavaClassName*+++).\nThe plugin tries to rename occurrences of files and Java classes in the AsciiDoc file when the user renames the file or the class.\n"
@@ -3536,7 +3536,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "e778b8f6249369b49450454eef93f77b51e0f05da3fea3bc3a9b64451bd4f04d"
+  "hash": "e25009e1e86ff2b6a05684dc87cce0ff06539d3dd24693ef2fc0c3466705200a"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3549,11 +3549,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/editor.adoc",
       "language": "AsciiDoc",
-      "line": 60,
+      "line": 62,
       "offset": 83,
       "length": 10,
       "code": {
-        "startLine": 58,
+        "startLine": 60,
         "length": 10,
         "offset": 252,
         "surroundingCode": "// see: AsciiDocReferenceContributor and AsciiDocJavaReferenceContributor for the creation of references\n// see: AsciiDocJavaReference for the resolution of Java classes\nThe user can navigate using kbd:[Ctrl+Click] and kbd:[Ctrl+B] from a file name or Java class name in backticks (as monospaced text like +++`filename.txt`+++ or +++`JavaClassName`+++) or in underscores (as italic text like +++_filename.txt_+++ or +++_JavaClassName_+++) or asterisks (as bold text like +++*filename.txt*+++ or +++*JavaClassName*+++).\nThe plugin tries to rename occurrences of files and Java classes in the AsciiDoc file when the user renames the file or the class.\n"
@@ -3566,7 +3566,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "3719e22eb563fd9f634230ea8ca3768225082ce82c2183f0d1c46da2d0b6d45b"
+  "hash": "1e028d15c301ed5e73a6794619a3d2564ef3a94a4df38304161bb0a8f8171558"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3579,11 +3579,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/editor.adoc",
       "language": "AsciiDoc",
-      "line": 112,
+      "line": 114,
       "offset": 19,
       "length": 11,
       "code": {
-        "startLine": 110,
+        "startLine": 112,
         "length": 11,
         "offset": 45,
         "surroundingCode": "\n// see: ExternalAnnotator\nDuring rendering, Asciidoctor might indicate problems in the file including a line number.\nThe editor shows them as red and yellow annotations.\nHover over the annotations to see the full warning or error message."
@@ -3596,7 +3596,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "48fc969b892ba3fbfb278827f14630547b9085be713d0636e5a5f7fd238f9ec5"
+  "hash": "70d5a16fb66996bc64f1e6bce16458bce943e7f49629b896dd23d4d058819df1"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3609,14 +3609,14 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/editor.adoc",
       "language": "AsciiDoc",
-      "line": 242,
+      "line": 245,
       "offset": 71,
       "length": 9,
       "code": {
-        "startLine": 240,
+        "startLine": 243,
         "length": 9,
         "offset": 175,
-        "surroundingCode": ".Available from release 0.31.35:\nThe user can change single-line admonition to a block-style admonition.\nThis is available from the \"`Refactor\"` context menu and as a context-sensitive intention \"`Refactor to block admonition`\" via kbd:[Alt+Enter]. It is available when user places the cursor on the start of single-line admonition (like for example `NOTE:`).\n\nAll of these changes can be undone (kbd:[Ctrl+Z])."
+        "surroundingCode": ".Available from release 0.31.35:\nThe user can change single-line admonition to a block-style admonition.\nThis is available from the \"`Refactor\"` context menu and as a context-sensitive intention \"`Refactor to block admonition`\" via kbd:[Alt+Enter].\nIt is available when user places the cursor on the start of single-line admonition (like for example `NOTE:`).\n"
       }
     }
   ],
@@ -3626,7 +3626,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "daf9f14b12af0d25c34f834970299c0da262038dda47bcf9b52ee284933339e6"
+  "hash": "58bb441ba2a1af9d453bc9c6b47cb4c00a3b295c985962986b18b4f80496d869"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
