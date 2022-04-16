@@ -1143,66 +1143,6 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'ifeval'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 32,
-      "offset": 2,
-      "length": 6,
-      "code": {
-        "startLine": 30,
-        "length": 6,
-        "offset": 24,
-        "surroundingCode": "[source,asciidoc]\n----\n\\ifeval::[{env}!=idea]\nrender this text WHEN NOT running IntelliJ Asciidoctor Plugin\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "e06620fc029728488f5cd97d6586d60c385686735cac956ac02c306e2c57ab9b"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'ifeval'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 36,
-      "offset": 2,
-      "length": 6,
-      "code": {
-        "startLine": 34,
-        "length": 6,
-        "offset": 13,
-        "surroundingCode": "\\endif::[]\n\n\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "c93694662a02ac1050144d7e143c901cc415e240625d87479c2c0909d797dcac"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
   "comment": "Typo: In word 'ifndef'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
@@ -1258,6 +1198,66 @@
     "baselineState": "unchanged"
   },
   "hash": "a729b46c0e468f99a8bbf7bf98f8cfc00c5de4a8ccc29e16aeef38f95777478c"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifeval'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 32,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 30,
+        "length": 6,
+        "offset": 24,
+        "surroundingCode": "[source,asciidoc]\n----\n\\ifeval::[{env}!=idea]\nrender this text WHEN NOT running IntelliJ Asciidoctor Plugin\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "e06620fc029728488f5cd97d6586d60c385686735cac956ac02c306e2c57ab9b"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifeval'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 36,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 34,
+        "length": 6,
+        "offset": 13,
+        "surroundingCode": "\\endif::[]\n\n\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "c93694662a02ac1050144d7e143c901cc415e240625d87479c2c0909d797dcac"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1678,6 +1678,35 @@
     "baselineState": "unchanged"
   },
   "hash": "15dec427fdfaa4a2500b3aef4dca8cb986719314f69479c15c3c64d266e5b716"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'IDE's'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/editor.adoc",
+      "language": "AsciiDoc",
+      "line": 168,
+      "offset": 159,
+      "length": 5,
+      "code": {
+        "startLine": 166,
+        "length": 5,
+        "offset": 259,
+        "surroundingCode": "Inline Commands::\nAll inline commands need to be in backticks and need to show as a monospaced text.\nThe plugin will show the run icon only when it identifies it as a command that is available via the https://www.jetbrains.com/help/idea/running-anything.html[IDE's Run Anything] functionality.\n\n== Writing"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "baselineState": "new"
+  },
+  "hash": "925ec07d61ce59506534eef35f260dba7c3eda695aec34215749ef6832579196"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3580,11 +3609,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/editor.adoc",
       "language": "AsciiDoc",
-      "line": 216,
+      "line": 242,
       "offset": 71,
       "length": 9,
       "code": {
-        "startLine": 214,
+        "startLine": 240,
         "length": 9,
         "offset": 175,
         "surroundingCode": ".Available from release 0.31.35:\nThe user can change single-line admonition to a block-style admonition.\nThis is available from the \"`Refactor\"` context menu and as a context-sensitive intention \"`Refactor to block admonition`\" via kbd:[Alt+Enter]. It is available when user places the cursor on the start of single-line admonition (like for example `NOTE:`).\n\nAll of these changes can be undone (kbd:[Ctrl+Z])."
@@ -3597,7 +3626,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "08f47ec2c894d6195e27f424ef2158ce34a9ecbf469c24c28faa5e04144b4d78"
+  "hash": "daf9f14b12af0d25c34f834970299c0da262038dda47bcf9b52ee284933339e6"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
