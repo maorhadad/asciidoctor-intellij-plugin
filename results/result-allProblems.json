@@ -940,11 +940,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
       "language": "AsciiDoc",
-      "line": 28,
+      "line": 27,
       "offset": 33,
       "length": 5,
       "code": {
-        "startLine": 26,
+        "startLine": 25,
         "length": 5,
         "offset": 72,
         "surroundingCode": "== Tradeoffs of a multi-module project\n\nOnce the setup is complete, the IDE's view for Git will show a combined history for all Git repositories added in the following steps.\nDepending on the user's needs, this might be helpful in the long term and confusing at the beginning.\n"
@@ -957,7 +957,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "5a8c32201a360ce402a24a8498745a30a1394bc4e993ee16135af729aa4a92e3"
+  "hash": "fb5bbf39e745155b702708efbde729cee1f19921d85e4ac28e85f1336330e660"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -970,11 +970,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
       "language": "AsciiDoc",
-      "line": 38,
+      "line": 37,
       "offset": 137,
       "length": 5,
       "code": {
-        "startLine": 36,
+        "startLine": 35,
         "length": 5,
         "offset": 146,
         "surroundingCode": "== Setup\n\nUsers find the extensive description in the https://www.jetbrains.com/help/idea/creating-and-managing-modules.html#multimodule-projects[IDE's docs].\nThe following paragraph gives a quick start.\n"
@@ -987,7 +987,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "5e2c784ec048d80b02f16ec45066a60b78b6e535279c9af89313a80f71905145"
+  "hash": "f357d086e8a4fe8e70f9ddc9090ac86b73da33e295425c9f9aaa281092300c3b"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1143,66 +1143,6 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'ifeval'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 32,
-      "offset": 2,
-      "length": 6,
-      "code": {
-        "startLine": 30,
-        "length": 6,
-        "offset": 24,
-        "surroundingCode": "[source,asciidoc]\n----\n\\ifeval::[{env}!=idea]\nrender this text WHEN NOT running IntelliJ Asciidoctor Plugin\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "e06620fc029728488f5cd97d6586d60c385686735cac956ac02c306e2c57ab9b"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'ifeval'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 36,
-      "offset": 2,
-      "length": 6,
-      "code": {
-        "startLine": 34,
-        "length": 6,
-        "offset": 13,
-        "surroundingCode": "\\endif::[]\n\n\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "c93694662a02ac1050144d7e143c901cc415e240625d87479c2c0909d797dcac"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
   "comment": "Typo: In word 'ifndef'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
@@ -1258,6 +1198,66 @@
     "baselineState": "unchanged"
   },
   "hash": "a729b46c0e468f99a8bbf7bf98f8cfc00c5de4a8ccc29e16aeef38f95777478c"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifeval'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 32,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 30,
+        "length": 6,
+        "offset": 24,
+        "surroundingCode": "[source,asciidoc]\n----\n\\ifeval::[{env}!=idea]\nrender this text WHEN NOT running IntelliJ Asciidoctor Plugin\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "e06620fc029728488f5cd97d6586d60c385686735cac956ac02c306e2c57ab9b"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifeval'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 36,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 34,
+        "length": 6,
+        "offset": 13,
+        "surroundingCode": "\\endif::[]\n\n\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "c93694662a02ac1050144d7e143c901cc415e240625d87479c2c0909d797dcac"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2945,11 +2945,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
       "language": "AsciiDoc",
-      "line": 38,
+      "line": 37,
       "offset": 12,
       "length": 28,
       "code": {
-        "startLine": 36,
+        "startLine": 35,
         "length": 28,
         "offset": 21,
         "surroundingCode": "== Setup\n\nUsers find the extensive description in the https://www.jetbrains.com/help/idea/creating-and-managing-modules.html#multimodule-projects[IDE's docs].\nThe following paragraph gives a quick start.\n"
@@ -2962,7 +2962,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "361a22b56d36121cfecb6e6bdc46cd391d13389508223d1869eb10340a9f3ae3"
+  "hash": "b080b405118594cd2fee533e7d3540bf804c1e9c8b4e7e6247e197fe1d4e73aa"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2982,7 +2982,7 @@
         "startLine": 54,
         "length": 5,
         "offset": 116,
-        "surroundingCode": ". Select the folder with the other Git repository and press btn:[OK].\n\n. Choose option _Import module from external model_.\n\n. Depending on the external model, complete the following dialogs."
+        "surroundingCode": ". Select the folder with the other Git repository and press btn:[OK].\n\n. Choose option _Import module from external model_ if the repository contains sources from a build tool you recognize, or _Create module from existing sources_ if not.\n\n. Depending on the external model, complete the following dialogs."
       }
     }
   ],
@@ -2992,7 +2992,65 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "0c755af7bdeb4179c4901b75210ef21907cfa0a22a210e39c2515f1f897a77c4"
+  "hash": "c319f34ae114172e490c7b3b178c99e7b625427846ed08bdf4cad42ceecdf06b"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Incorrect verb form",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
+      "language": "AsciiDoc",
+      "line": 56,
+      "offset": 95,
+      "length": 5,
+      "code": {
+        "startLine": 54,
+        "length": 5,
+        "offset": 165,
+        "surroundingCode": ". Select the folder with the other Git repository and press btn:[OK].\n\n. Choose option _Import module from external model_ if the repository contains sources from a build tool you recognize, or _Create module from existing sources_ if not.\n\n. Depending on the external model, complete the following dialogs."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
+  },
+  "hash": "154901efcb9dff733da18ac9a6bcb8ca373a6e7d32517029357cbf2bc78b2c38"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
+      "language": "AsciiDoc",
+      "line": 56,
+      "offset": 132,
+      "length": 6,
+      "code": {
+        "startLine": 54,
+        "length": 6,
+        "offset": 202,
+        "surroundingCode": ". Select the folder with the other Git repository and press btn:[OK].\n\n. Choose option _Import module from external model_ if the repository contains sources from a build tool you recognize, or _Create module from existing sources_ if not.\n\n. Depending on the external model, complete the following dialogs."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
+  },
+  "hash": "fbcdffe13a3d49e4e345570b6998842c289dad15f53430394099159ccf12644d"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
