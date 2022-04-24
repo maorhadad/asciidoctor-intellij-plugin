@@ -940,14 +940,14 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
       "language": "AsciiDoc",
-      "line": 25,
+      "line": 28,
       "offset": 33,
       "length": 5,
       "code": {
-        "startLine": 23,
+        "startLine": 26,
         "length": 5,
-        "offset": 46,
-        "surroundingCode": "== Tradeoffs\n\nOnce the setup is complete, the IDE's view for Git will show a combined history for all Git repositories added in the following steps.\nDepending on the user's needs, this might be helpful in the long term and confusing at the beginning.\n"
+        "offset": 72,
+        "surroundingCode": "== Tradeoffs of a multi-module project\n\nOnce the setup is complete, the IDE's view for Git will show a combined history for all Git repositories added in the following steps.\nDepending on the user's needs, this might be helpful in the long term and confusing at the beginning.\n"
       }
     }
   ],
@@ -957,7 +957,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "5859f490948ca6c0a8b7ed50822d4730254ba5a69adf685ea6328387ac870840"
+  "hash": "5a8c32201a360ce402a24a8498745a30a1394bc4e993ee16135af729aa4a92e3"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -970,11 +970,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
       "language": "AsciiDoc",
-      "line": 35,
+      "line": 38,
       "offset": 137,
       "length": 5,
       "code": {
-        "startLine": 33,
+        "startLine": 36,
         "length": 5,
         "offset": 146,
         "surroundingCode": "== Setup\n\nUsers find the extensive description in the https://www.jetbrains.com/help/idea/creating-and-managing-modules.html#multimodule-projects[IDE's docs].\nThe following paragraph gives a quick start.\n"
@@ -987,7 +987,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "ce048c0c0f6eca06e7d0a8ca0a93f44dc7dc5f48a64e5f4befa7e61d1d5b0736"
+  "hash": "5e2c784ec048d80b02f16ec45066a60b78b6e535279c9af89313a80f71905145"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1143,66 +1143,6 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'ifndef'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 19,
-      "offset": 2,
-      "length": 6,
-      "code": {
-        "startLine": 17,
-        "length": 6,
-        "offset": 24,
-        "surroundingCode": "[source,asciidoc]\n----\n\\ifndef::env-idea[]\nRender this text WHEN NOT running IntelliJ Asciidoctor Plugin.\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "ca329b5171a060eb63fe6bdf7d5c4482007b5521386b21dd6a008d0fd68b5b5e"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'ifdef'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 23,
-      "offset": 2,
-      "length": 5,
-      "code": {
-        "startLine": 21,
-        "length": 5,
-        "offset": 13,
-        "surroundingCode": "\\endif::[]\n\n\\ifdef::env-idea[]\nRender this text IF running IntelliJ Asciidoctor Plugin.\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "a729b46c0e468f99a8bbf7bf98f8cfc00c5de4a8ccc29e16aeef38f95777478c"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
   "comment": "Typo: In word 'ifeval'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
@@ -1258,6 +1198,66 @@
     "baselineState": "unchanged"
   },
   "hash": "c93694662a02ac1050144d7e143c901cc415e240625d87479c2c0909d797dcac"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifndef'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 19,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 17,
+        "length": 6,
+        "offset": 24,
+        "surroundingCode": "[source,asciidoc]\n----\n\\ifndef::env-idea[]\nRender this text WHEN NOT running IntelliJ Asciidoctor Plugin.\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "ca329b5171a060eb63fe6bdf7d5c4482007b5521386b21dd6a008d0fd68b5b5e"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifdef'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 23,
+      "offset": 2,
+      "length": 5,
+      "code": {
+        "startLine": 21,
+        "length": 5,
+        "offset": 13,
+        "surroundingCode": "\\endif::[]\n\n\\ifdef::env-idea[]\nRender this text IF running IntelliJ Asciidoctor Plugin.\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "a729b46c0e468f99a8bbf7bf98f8cfc00c5de4a8ccc29e16aeef38f95777478c"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1712,31 +1712,59 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'unindent'",
+  "comment": "Typo: In word 'passthrough'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
     {
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 47,
+      "line": 44,
       "offset": 10,
-      "length": 8,
+      "length": 11,
       "code": {
-        "startLine": 45,
-        "length": 8,
-        "offset": 85,
-        "surroundingCode": "| Reformat code | kbd:[Ctrl+Alt+L]\n| Auto-indent line(s) | kbd:[Ctrl+Alt+I]\n| Indent/unindent selected lines | kbd:[Tab] / kbd:[Shift+Tab]\n| Cut current line to clipboard  | kbd:[Ctrl+X],kbd:[Shift+Delete]\n| Copy current line to clipboard | kbd:[Ctrl+C],kbd:[Ctrl+Insert]"
+        "startLine": 42,
+        "length": 11,
+        "offset": 119,
+        "surroundingCode": "| Toggle double quotes for the selected text | kbd:[\"]\n| Toggle single quotes for the selected text | kbd:[']\n| Toggle passthrough for the selected text | kbd:[+]\n| Toggle passthrough for the selected text | kbd:[$]\n| Show intention actions and quick-fixes | kbd:[Alt+Enter]"
       }
     }
   ],
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
+    "baselineState": "new"
   },
-  "hash": "cc51e0e573ffd6d3e38248cdaf46712fa93b584b8201bc9187dd77abd23a3503"
+  "hash": "adb01854d0e45bb439654f5ae59ce83e9eb83e991e89eb6b7cc6a08a709b7ea2"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'passthrough'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 45,
+      "offset": 10,
+      "length": 11,
+      "code": {
+        "startLine": 43,
+        "length": 11,
+        "offset": 117,
+        "surroundingCode": "| Toggle single quotes for the selected text | kbd:[']\n| Toggle passthrough for the selected text | kbd:[+]\n| Toggle passthrough for the selected text | kbd:[$]\n| Show intention actions and quick-fixes | kbd:[Alt+Enter]\n| Reformat code | kbd:[Ctrl+Alt+L]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "baselineState": "new"
+  },
+  "hash": "21ae8282bb7e627ba3b9411e0612b66985076eee9aa2b619702805e4a932280b"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1749,11 +1777,99 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 145,
+      "line": 49,
       "offset": 10,
       "length": 8,
       "code": {
+        "startLine": 47,
+        "length": 8,
+        "offset": 85,
+        "surroundingCode": "| Reformat code | kbd:[Ctrl+Alt+L]\n| Auto-indent line(s) | kbd:[Ctrl+Alt+I]\n| Indent/unindent selected lines | kbd:[Tab] / kbd:[Shift+Tab]\n| Cut current line to clipboard  | kbd:[Ctrl+X],kbd:[Shift+Delete]\n| Copy current line to clipboard | kbd:[Ctrl+C],kbd:[Ctrl+Insert]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "932ccbe2d43db2e74a07f6e56c01bb4a24a2375b995900d6545b769a18c0c79a"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'passthrough'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 144,
+      "offset": 10,
+      "length": 11,
+      "code": {
+        "startLine": 142,
+        "length": 11,
+        "offset": 119,
+        "surroundingCode": "| Toggle double quotes for the selected text | kbd:[\"]\n| Toggle single quotes for the selected text | kbd:[']\n| Toggle passthrough for the selected text | kbd:[+]\n| Toggle passthrough for the selected text | kbd:[$]\n| Show intention actions and quick-fixes | kbd:[⌥+Enter]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "baselineState": "new"
+  },
+  "hash": "6005d59a4005937c460200aa632f82fa0af84e10837f850012c00bc6d373293b"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'passthrough'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 145,
+      "offset": 10,
+      "length": 11,
+      "code": {
         "startLine": 143,
+        "length": 11,
+        "offset": 117,
+        "surroundingCode": "| Toggle single quotes for the selected text | kbd:[']\n| Toggle passthrough for the selected text | kbd:[+]\n| Toggle passthrough for the selected text | kbd:[$]\n| Show intention actions and quick-fixes | kbd:[⌥+Enter]\n| Reformat code | kbd:[⌘+⌥+L]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "baselineState": "new"
+  },
+  "hash": "64bc62190bcc4ddf5caa4813d493b34c9eca7d52e68162cfa39319c3b5f0680b"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'unindent'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 149,
+      "offset": 10,
+      "length": 8,
+      "code": {
+        "startLine": 147,
         "length": 8,
         "offset": 75,
         "surroundingCode": "| Reformat code | kbd:[⌘+⌥+L]\n| Auto-indent line(s) | kbd:[⌃+⌥+I]\n| Indent/unindent selected lines | kbd:[Right] / kbd:[⇧+Right]\n| Cut current line to clipboard  | kbd:[⌘+X]\n| Copy current line to clipboard | kbd:[⌘+C]"
@@ -1766,7 +1882,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "fcedd690436227ec835b35c1e0e58aebd6041f646ccd12341cb05b1495151300"
+  "hash": "450e09b12de982e703078901a259e6a29172d8fc1fcf8379876f591596cc342d"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2829,11 +2945,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
       "language": "AsciiDoc",
-      "line": 35,
+      "line": 38,
       "offset": 12,
       "length": 28,
       "code": {
-        "startLine": 33,
+        "startLine": 36,
         "length": 28,
         "offset": 21,
         "surroundingCode": "== Setup\n\nUsers find the extensive description in the https://www.jetbrains.com/help/idea/creating-and-managing-modules.html#multimodule-projects[IDE's docs].\nThe following paragraph gives a quick start.\n"
@@ -2846,7 +2962,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "cba3ead4d3e6473cd2f383d6f50f3e0cd0bfef744ecbbcbb112d562bdae21732"
+  "hash": "361a22b56d36121cfecb6e6bdc46cd391d13389508223d1869eb10340a9f3ae3"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2859,11 +2975,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
       "language": "AsciiDoc",
-      "line": 53,
+      "line": 56,
       "offset": 46,
       "length": 5,
       "code": {
-        "startLine": 51,
+        "startLine": 54,
         "length": 5,
         "offset": 116,
         "surroundingCode": ". Select the folder with the other Git repository and press btn:[OK].\n\n. Choose option _Import module from external model_.\n\n. Depending on the external model, complete the following dialogs."
@@ -2876,7 +2992,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "66c1fed297835f67b69a823605bb436f55d490f0134b4a8a94d3d8c29330441a"
+  "hash": "0c755af7bdeb4179c4901b75210ef21907cfa0a22a210e39c2515f1f897a77c4"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3639,11 +3755,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 51,
+      "line": 53,
       "offset": 2,
       "length": 4,
       "code": {
-        "startLine": 49,
+        "startLine": 51,
         "length": 4,
         "offset": 92,
         "surroundingCode": "| Copy current line to clipboard | kbd:[Ctrl+C],kbd:[Ctrl+Insert]\n| Paste from clipboard +\n(text or images) | kbd:[Ctrl+V],kbd:[Shift+Insert]\n| Move current line up/down | kbd:[Ctrl+Shift+Up]/kbd:[Down]\n| Duplicate current line  | kbd:[Ctrl+D]"
@@ -3656,7 +3772,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "fda53fa0b115746a9030f428d2cf9ce14642b08d175ec9e4291ddd0e7f6578b8"
+  "hash": "eb1faac1c7cefb31e5f76823cd5cea5470c05d1efa09edbaed8c431c81816585"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3669,11 +3785,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 59,
+      "line": 61,
       "offset": 18,
       "length": 3,
       "code": {
-        "startLine": 57,
+        "startLine": 59,
         "length": 3,
         "offset": 125,
         "surroundingCode": "| Start new line | kbd:[Shift+Enter]\n| Toggle case for word at caret or selected block | kbd:[Ctrl+Shift+U]\n| Delete to word end | kbd:[Ctrl+Delete]\n| Delete to word start | kbd:[Ctrl+Backspace]\n| Close active editor tab | kbd:[Ctrl+F4]"
@@ -3686,37 +3802,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "dda798667f24438171a7846c0e046ba0f7524042c23fc9718f2d18b7571409f8"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
-  "comment": "Missing punctuation",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
-      "language": "AsciiDoc",
-      "line": 63,
-      "offset": 6,
-      "length": 7,
-      "code": {
-        "startLine": 61,
-        "length": 7,
-        "offset": 73,
-        "surroundingCode": "| Close active editor tab | kbd:[Ctrl+F4]\n| Basic code completion +\n(for example file names) | kbd:[Ctrl+Space]\n| Smart code completion +\n(for example file names) | kbd:[Ctrl+Shift+Space]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "e12a797b4dfea67f9d43e376da07170ee5a5be399ddced7a089813bd8d0c0405"
+  "hash": "e06646f27c5fd3e8d4bc5d66a9edc0bca31cca1640b8429dedcf650f346dcebf"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3735,6 +3821,36 @@
       "code": {
         "startLine": 63,
         "length": 7,
+        "offset": 73,
+        "surroundingCode": "| Close active editor tab | kbd:[Ctrl+F4]\n| Basic code completion +\n(for example file names) | kbd:[Ctrl+Space]\n| Smart code completion +\n(for example file names) | kbd:[Ctrl+Shift+Space]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "9a471aa7e7951298936f06eafc57ee5bd921a2fe0524616d21325830869a5e7a"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing punctuation",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 67,
+      "offset": 6,
+      "length": 7,
+      "code": {
+        "startLine": 65,
+        "length": 7,
         "offset": 75,
         "surroundingCode": "(for example file names) | kbd:[Ctrl+Space]\n| Smart code completion +\n(for example file names) | kbd:[Ctrl+Shift+Space]\n| Complete the statement +\n(for example macros) | kbd:[Ctrl+Shift+Enter]"
       }
@@ -3746,7 +3862,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "58817fda920c20652b6e4a15cc897b6b7313a4b13735975496257498884d3b33"
+  "hash": "043b0eb7f223eece01a14ce11cc864980ab755ede9e3e83620223c20878fdc71"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3759,11 +3875,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 66,
+      "line": 68,
       "offset": 16,
       "length": 9,
       "code": {
-        "startLine": 64,
+        "startLine": 66,
         "length": 9,
         "offset": 91,
         "surroundingCode": "| Smart code completion +\n(for example file names) | kbd:[Ctrl+Shift+Space]\n| Complete the statement +\n(for example macros) | kbd:[Ctrl+Shift+Enter]\n| Quick documentation lookup | kbd:[Ctrl+Q]"
@@ -3776,7 +3892,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "6dce23979de5c8608d0e322770f97864314a005ea74bb1895ddbb208767f0822"
+  "hash": "87a25d8e3b2fb9ba7f4ced5ade9dfab045822b0870827f2a827abddb1a4e2ecd"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3789,11 +3905,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 66,
+      "line": 68,
       "offset": 27,
       "length": 1,
       "code": {
-        "startLine": 64,
+        "startLine": 66,
         "length": 1,
         "offset": 102,
         "surroundingCode": "| Smart code completion +\n(for example file names) | kbd:[Ctrl+Shift+Space]\n| Complete the statement +\n(for example macros) | kbd:[Ctrl+Shift+Enter]\n| Quick documentation lookup | kbd:[Ctrl+Q]\n| Brief Info | kbd:[Ctrl+mouse]"
@@ -3806,7 +3922,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "e18aae24fdc4436c437de03497bcc5ac3538fbc0370d19f6c1d3675450275b6a"
+  "hash": "8fd426810f7489c1ed6e196be9c408d6dbf969b430eed82b52b6aecbd6f7a566"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3819,11 +3935,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 67,
+      "line": 69,
       "offset": 2,
       "length": 11,
       "code": {
-        "startLine": 65,
+        "startLine": 67,
         "length": 11,
         "offset": 78,
         "surroundingCode": "(for example file names) | kbd:[Ctrl+Shift+Space]\n| Complete the statement +\n(for example macros) | kbd:[Ctrl+Shift+Enter]\n| Quick documentation lookup | kbd:[Ctrl+Q]\n| Brief Info | kbd:[Ctrl+mouse]"
@@ -3836,7 +3952,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "298d569feadf3b2da6228cf16a3d402239a2d0fc4d91f813f4638dd0e91ccfc4"
+  "hash": "2c95734df2bab411260f3dc44c99a90826febdbfd8ea5be167b9655366416dd7"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3849,11 +3965,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 93,
+      "line": 95,
       "offset": 30,
       "length": 6,
       "code": {
-        "startLine": 91,
+        "startLine": 93,
         "length": 6,
         "offset": 129,
         "surroundingCode": "| Go back to the previous tool window | kbd:[F12]\n| Go to editor (from the tool window) | kbd:[Esc]\n| Hide active or last active window | kbd:[Shift+Esc]\n| Go to line | kbd:[Ctrl+G]\n| Find in current file | kbd:[Ctrl+F]"
@@ -3866,7 +3982,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "aaf5d5d8e8ca514271c960fb9989e5a699666fd468f6122e4400ad9dd3536401"
+  "hash": "b5ec80330ed1996a27daea69acc658b196bf5bdc10275db8d447a05aec03fc48"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3879,11 +3995,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 98,
+      "line": 100,
       "offset": 2,
       "length": 11,
       "code": {
-        "startLine": 96,
+        "startLine": 98,
         "length": 11,
         "offset": 53,
         "surroundingCode": "| Replace in current file | kbd:[Ctrl+R]\n| Rename +\n(for example ID or file name) | kbd:[Shift+F6]\n| Recent files popup | kbd:[Ctrl+E]\n| Navigate back/forward | kbd:[Ctrl+Alt+Left/Right]"
@@ -3896,7 +4012,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "3dbd95db1239e65b6c935646cffe3cbc7ae3ed7799c663c716048d0ca8959996"
+  "hash": "eae274d8484ea06fdf942d806ffd2c06490d8d2b406cf4de5749961500aac301"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3909,11 +4025,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 149,
+      "line": 153,
       "offset": 2,
       "length": 4,
       "code": {
-        "startLine": 147,
+        "startLine": 151,
         "length": 4,
         "offset": 71,
         "surroundingCode": "| Copy current line to clipboard | kbd:[⌘+C]\n| Paste from clipboard +\n(text or images) | kbd:[⌘+V]\n| Move current line up/down | kbd:[⇧+⌘+Up]/kbd:[Down]\n| Duplicate current line  | kbd:[⌘+D]"
@@ -3926,7 +4042,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "7ef87d44b38311b7b2b641711976e974eff8b4e6d8bf13dc2f28852c1d814eaa"
+  "hash": "6df19b2fdc4d5499dbbd38bd77e7a5629542662ebe1619876cea98f2f09b0697"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3939,11 +4055,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 158,
+      "line": 162,
       "offset": 18,
       "length": 3,
       "code": {
-        "startLine": 156,
+        "startLine": 160,
         "length": 3,
         "offset": 124,
         "surroundingCode": "| Toggle case for word at caret or selected block | kbd:[⌘+⇧+U]\n| Delete to word start | kbd:[⌥+Backspace]\n| Delete to word end | kbd:[⌥+Delete]\n| Close active editor tab | kbd:[⌘+W]\n| Basic code completion +"
@@ -3956,7 +4072,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "278f03fea91fafa2fe6914927f2c0c98c433b5de501668f5f5482ddc8ab58330"
+  "hash": "c6cce2201016295936d910517c5df892a97a051d02e938305c8da23aed4a87d4"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3969,11 +4085,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 161,
+      "line": 165,
       "offset": 6,
       "length": 7,
       "code": {
-        "startLine": 159,
+        "startLine": 163,
         "length": 7,
         "offset": 69,
         "surroundingCode": "| Close active editor tab | kbd:[⌘+W]\n| Basic code completion +\n(for example file names) | kbd:[^+Space]\n| Smart code completion +\n(for example file names) | kbd:[^+⇧+Space]"
@@ -3986,7 +4102,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "6bd20ed5e85b3a8e5b441e037d8401e44dd39e0e68f600168db19dc7035a635d"
+  "hash": "b35277cfb06c9dc2d939e8e06e609871ed490e8f15e7f285b24efc22cb0d512b"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3999,11 +4115,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 163,
+      "line": 167,
       "offset": 6,
       "length": 7,
       "code": {
-        "startLine": 161,
+        "startLine": 165,
         "length": 7,
         "offset": 72,
         "surroundingCode": "(for example file names) | kbd:[^+Space]\n| Smart code completion +\n(for example file names) | kbd:[^+⇧+Space]\n| Complete the statement +\n(for example macros) | kbd:[⌘+⇧+Enter]"
@@ -4016,7 +4132,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "e37fc1afe8e3cce0f528bd275f0f3484221eaf2c780edb57ba51aeac093780d8"
+  "hash": "030e5c7695eb6965f9cc9e4c89d6e46771a7235c01863ee3009abdca85b22c14"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4029,11 +4145,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 164,
+      "line": 168,
       "offset": 16,
       "length": 9,
       "code": {
-        "startLine": 162,
+        "startLine": 166,
         "length": 9,
         "offset": 84,
         "surroundingCode": "| Smart code completion +\n(for example file names) | kbd:[^+⇧+Space]\n| Complete the statement +\n(for example macros) | kbd:[⌘+⇧+Enter]\n| Quick documentation lookup | kbd:[^+J]"
@@ -4046,7 +4162,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "e30180a108e5cf5799ecaac8ecdb7a0bb78aeedffa897bdd2fa301a9e927b7ae"
+  "hash": "8dc7ebd44c0deb9741289c8c04a64758694d186739509ef83165f81041d3b0d9"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4059,11 +4175,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 164,
+      "line": 168,
       "offset": 27,
       "length": 1,
       "code": {
-        "startLine": 162,
+        "startLine": 166,
         "length": 1,
         "offset": 95,
         "surroundingCode": "| Smart code completion +\n(for example file names) | kbd:[^+⇧+Space]\n| Complete the statement +\n(for example macros) | kbd:[⌘+⇧+Enter]\n| Quick documentation lookup | kbd:[^+J]\n| Brief Info | kbd:[⌘+mouse]"
@@ -4076,7 +4192,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "6d423da804735dd76df288ca865421933261604d536ace0f682880ba1b80bb3e"
+  "hash": "adab8090374b5425cc90404020de49c9e33b0c07f2633a18e7402b44c074bd14"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4089,11 +4205,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 165,
+      "line": 169,
       "offset": 2,
       "length": 11,
       "code": {
-        "startLine": 163,
+        "startLine": 167,
         "length": 11,
         "offset": 71,
         "surroundingCode": "(for example file names) | kbd:[^+⇧+Space]\n| Complete the statement +\n(for example macros) | kbd:[⌘+⇧+Enter]\n| Quick documentation lookup | kbd:[^+J]\n| Brief Info | kbd:[⌘+mouse]"
@@ -4106,7 +4222,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "e6f586f3f027925f2218f61d90d4730bbaa9277c965f9401212aa141c0c719a1"
+  "hash": "396445a798627e7d20838eb690184449b9af6469f3f87a367fff8879a5d78c15"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4119,11 +4235,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 191,
+      "line": 195,
       "offset": 30,
       "length": 6,
       "code": {
-        "startLine": 189,
+        "startLine": 193,
         "length": 6,
         "offset": 129,
         "surroundingCode": "| Go back to the previous tool window | kbd:[F12]\n| Go to editor (from the tool window) | kbd:[Esc]\n| Hide active or last active window | kbd:[⇧+Esc]\n| Go to line | kbd:[⌘+L]\n| Find in current file | kbd:[⌘+F]"
@@ -4136,7 +4252,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "6e1042e020fb3fb0a372bd70e242e9db71413e9341330f19040fad83abb5c4d8"
+  "hash": "0c24a8ece14520f22c58cf4449b424e43c5bf7e211967e32f2b4e93c9ce85809"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4149,11 +4265,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
       "language": "AsciiDoc",
-      "line": 196,
+      "line": 200,
       "offset": 2,
       "length": 11,
       "code": {
-        "startLine": 194,
+        "startLine": 198,
         "length": 11,
         "offset": 50,
         "surroundingCode": "| Replace in current file | kbd:[⌘+R]\n| Rename +\n(for example ID or file name) | kbd:[⇧+F6]\n| Recent files popup | kbd:[⌘+E]\n| Navigate back/forward | kbd:[⌘+⌥+Left/Right]"
@@ -4166,7 +4282,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "52acfc716c3e313b0309e3319d1181b4d9a21aef024f8cfdbc4127d36fabc990"
+  "hash": "4a53e4647237b96e5cff681995e79c567244638514d2d8e04e5d0f51173ad543"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
