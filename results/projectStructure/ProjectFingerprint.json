@@ -1,5 +1,6 @@
 {
   "languages": [
+    ".gitignore (GitIgnore)",
     "XML",
     "Plain text",
     "AsciiDoc"
