@@ -272,156 +272,6 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'IDE's'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/installation.adoc",
-      "language": "AsciiDoc",
-      "line": 73,
-      "offset": 41,
-      "length": 5,
-      "code": {
-        "startLine": 71,
-        "length": 5,
-        "offset": 108,
-        "surroundingCode": "Installing from JetBrains marketplace with an Internet Connection:\n\n. Via the xref:marketplace-via-settings[IDE's settings from JetBrains marketplace].\n\nIf your IDE doesn't have internet access configured:"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "8136f65824441b13fd171a44530715e746f3c46456e8ba3841843ba27e839240"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'IDE's'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/installation.adoc",
-      "language": "AsciiDoc",
-      "line": 91,
-      "offset": 52,
-      "length": 5,
-      "code": {
-        "startLine": 89,
-        "length": 5,
-        "offset": 80,
-        "surroundingCode": "\n[#marketplace-via-settings]\n=== Installation via JetBrains Marketplace via the IDE's settings\n\nPrerequisite::"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "510b0e3e745663ff560e97c11f0dae4ea0ab259488aeb060521d8b930d59a911"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'IDE's'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/installation.adoc",
-      "language": "AsciiDoc",
-      "line": 98,
-      "offset": 12,
-      "length": 5,
-      "code": {
-        "startLine": 96,
-        "length": 5,
-        "offset": 21,
-        "surroundingCode": "Steps::\n+\n. Open the IDE's setting via menu:File[Settings...]. +\nThis opens the following menu:\n+"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "c6a3f7912c897b112208ab0a979c4cfc853ffd31e512a00150f8927f7b63c886"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'IDE's'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/installation.adoc",
-      "language": "AsciiDoc",
-      "line": 126,
-      "offset": 45,
-      "length": 5,
-      "code": {
-        "startLine": 124,
-        "length": 5,
-        "offset": 174,
-        "surroundingCode": "image::web-page-marketplace.png[JetBrains Marketplace showing AsciiDoc plugin]\n. Choose the version tab if it isn't pre-selected.\n. Download the version compatible with your IDE's version (usually the latest version if your IDE is up-to-date).\n. Open the IDE's setting via menu:File[Settings...]. +\nThis opens the following menu:"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "694be7023d25d4171bcfe923fc8b2928ed8a7e5eca484433b170026345fdb147"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'IDE's'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/installation.adoc",
-      "language": "AsciiDoc",
-      "line": 127,
-      "offset": 12,
-      "length": 5,
-      "code": {
-        "startLine": 125,
-        "length": 5,
-        "offset": 176,
-        "surroundingCode": ". Choose the version tab if it isn't pre-selected.\n. Download the version compatible with your IDE's version (usually the latest version if your IDE is up-to-date).\n. Open the IDE's setting via menu:File[Settings...]. +\nThis opens the following menu:\n+"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "66e76653b0157e9c7dac7a661b384dc197f621f9331f46b1c9fcf7c588eb3c65"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
   "comment": "Typo: In word 'passthrough'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
@@ -808,6 +658,156 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
+  "comment": "Typo: In word 'IDE's'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/installation.adoc",
+      "language": "AsciiDoc",
+      "line": 73,
+      "offset": 41,
+      "length": 5,
+      "code": {
+        "startLine": 71,
+        "length": 5,
+        "offset": 108,
+        "surroundingCode": "Installing from JetBrains marketplace with an Internet Connection:\n\n. Via the xref:marketplace-via-settings[IDE's settings from JetBrains marketplace].\n\nIf your IDE doesn't have internet access configured:"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "8136f65824441b13fd171a44530715e746f3c46456e8ba3841843ba27e839240"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'IDE's'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/installation.adoc",
+      "language": "AsciiDoc",
+      "line": 91,
+      "offset": 52,
+      "length": 5,
+      "code": {
+        "startLine": 89,
+        "length": 5,
+        "offset": 80,
+        "surroundingCode": "\n[#marketplace-via-settings]\n=== Installation via JetBrains Marketplace via the IDE's settings\n\nPrerequisite::"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "510b0e3e745663ff560e97c11f0dae4ea0ab259488aeb060521d8b930d59a911"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'IDE's'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/installation.adoc",
+      "language": "AsciiDoc",
+      "line": 98,
+      "offset": 12,
+      "length": 5,
+      "code": {
+        "startLine": 96,
+        "length": 5,
+        "offset": 21,
+        "surroundingCode": "Steps::\n+\n. Open the IDE's setting via menu:File[Settings...]. +\nThis opens the following menu:\n+"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "c6a3f7912c897b112208ab0a979c4cfc853ffd31e512a00150f8927f7b63c886"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'IDE's'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/installation.adoc",
+      "language": "AsciiDoc",
+      "line": 126,
+      "offset": 45,
+      "length": 5,
+      "code": {
+        "startLine": 124,
+        "length": 5,
+        "offset": 174,
+        "surroundingCode": "image::web-page-marketplace.png[JetBrains Marketplace showing AsciiDoc plugin]\n. Choose the version tab if it isn't pre-selected.\n. Download the version compatible with your IDE's version (usually the latest version if your IDE is up-to-date).\n. Open the IDE's setting via menu:File[Settings...]. +\nThis opens the following menu:"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "694be7023d25d4171bcfe923fc8b2928ed8a7e5eca484433b170026345fdb147"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'IDE's'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/installation.adoc",
+      "language": "AsciiDoc",
+      "line": 127,
+      "offset": 12,
+      "length": 5,
+      "code": {
+        "startLine": 125,
+        "length": 5,
+        "offset": 176,
+        "surroundingCode": ". Choose the version tab if it isn't pre-selected.\n. Download the version compatible with your IDE's version (usually the latest version if your IDE is up-to-date).\n. Open the IDE's setting via menu:File[Settings...]. +\nThis opens the following menu:\n+"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "66e76653b0157e9c7dac7a661b384dc197f621f9331f46b1c9fcf7c588eb3c65"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
   "comment": "Typo: In word 'rastered'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
@@ -958,6 +958,126 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
+  "comment": "Typo: In word 'ifeval'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 32,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 30,
+        "length": 6,
+        "offset": 24,
+        "surroundingCode": "[source,asciidoc]\n----\n\\ifeval::[{env}!=idea]\nrender this text WHEN NOT running IntelliJ Asciidoctor Plugin\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "e06620fc029728488f5cd97d6586d60c385686735cac956ac02c306e2c57ab9b"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifeval'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 36,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 34,
+        "length": 6,
+        "offset": 13,
+        "surroundingCode": "\\endif::[]\n\n\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "c93694662a02ac1050144d7e143c901cc415e240625d87479c2c0909d797dcac"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifndef'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 19,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 17,
+        "length": 6,
+        "offset": 24,
+        "surroundingCode": "[source,asciidoc]\n----\n\\ifndef::env-idea[]\nRender this text WHEN NOT running IntelliJ Asciidoctor Plugin.\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "ca329b5171a060eb63fe6bdf7d5c4482007b5521386b21dd6a008d0fd68b5b5e"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifdef'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 23,
+      "offset": 2,
+      "length": 5,
+      "code": {
+        "startLine": 21,
+        "length": 5,
+        "offset": 13,
+        "surroundingCode": "\\endif::[]\n\n\\ifdef::env-idea[]\nRender this text IF running IntelliJ Asciidoctor Plugin.\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "a729b46c0e468f99a8bbf7bf98f8cfc00c5de4a8ccc29e16aeef38f95777478c"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
   "comment": "Typo: In word 'idprefix'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
@@ -1073,66 +1193,6 @@
     "baselineState": "unchanged"
   },
   "hash": "7ba9add3c2770ad59c669e11ff0a82d3bf4335b5706b0bf0e914fcf0aebf15a5"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'IDE's'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
-      "language": "AsciiDoc",
-      "line": 27,
-      "offset": 33,
-      "length": 5,
-      "code": {
-        "startLine": 25,
-        "length": 5,
-        "offset": 72,
-        "surroundingCode": "== Tradeoffs of a multi-module project\n\nOnce the setup is complete, the IDE's view for Git will show a combined history for all Git repositories added in the following steps.\nDepending on the user's needs, this might be helpful in the long term and confusing at the beginning.\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "fb5bbf39e745155b702708efbde729cee1f19921d85e4ac28e85f1336330e660"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'IDE's'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
-      "language": "AsciiDoc",
-      "line": 37,
-      "offset": 137,
-      "length": 5,
-      "code": {
-        "startLine": 35,
-        "length": 5,
-        "offset": 146,
-        "surroundingCode": "== Setup\n\nUsers find the extensive description in the https://www.jetbrains.com/help/idea/creating-and-managing-modules.html#multimodule-projects[IDE's docs].\nThe following paragraph gives a quick start.\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "f357d086e8a4fe8e70f9ddc9090ac86b73da33e295425c9f9aaa281092300c3b"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1493,126 +1553,6 @@
     "baselineState": "unchanged"
   },
   "hash": "553ed7bcf428537b11afb5fd9c59bca310989b000e9d81467388bec156929be2"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'ifeval'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 32,
-      "offset": 2,
-      "length": 6,
-      "code": {
-        "startLine": 30,
-        "length": 6,
-        "offset": 24,
-        "surroundingCode": "[source,asciidoc]\n----\n\\ifeval::[{env}!=idea]\nrender this text WHEN NOT running IntelliJ Asciidoctor Plugin\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "e06620fc029728488f5cd97d6586d60c385686735cac956ac02c306e2c57ab9b"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'ifeval'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 36,
-      "offset": 2,
-      "length": 6,
-      "code": {
-        "startLine": 34,
-        "length": 6,
-        "offset": 13,
-        "surroundingCode": "\\endif::[]\n\n\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "c93694662a02ac1050144d7e143c901cc415e240625d87479c2c0909d797dcac"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'ifndef'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 19,
-      "offset": 2,
-      "length": 6,
-      "code": {
-        "startLine": 17,
-        "length": 6,
-        "offset": 24,
-        "surroundingCode": "[source,asciidoc]\n----\n\\ifndef::env-idea[]\nRender this text WHEN NOT running IntelliJ Asciidoctor Plugin.\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "ca329b5171a060eb63fe6bdf7d5c4482007b5521386b21dd6a008d0fd68b5b5e"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'ifdef'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 23,
-      "offset": 2,
-      "length": 5,
-      "code": {
-        "startLine": 21,
-        "length": 5,
-        "offset": 13,
-        "surroundingCode": "\\endif::[]\n\n\\ifdef::env-idea[]\nRender this text IF running IntelliJ Asciidoctor Plugin.\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "a729b46c0e468f99a8bbf7bf98f8cfc00c5de4a8ccc29e16aeef38f95777478c"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2278,6 +2218,66 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
+  "comment": "Typo: In word 'IDE's'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
+      "language": "AsciiDoc",
+      "line": 27,
+      "offset": 33,
+      "length": 5,
+      "code": {
+        "startLine": 25,
+        "length": 5,
+        "offset": 72,
+        "surroundingCode": "== Tradeoffs of a multi-module project\n\nOnce the setup is complete, the IDE's view for Git will show a combined history for all Git repositories added in the following steps.\nDepending on the user's needs, this might be helpful in the long term and confusing at the beginning.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "fb5bbf39e745155b702708efbde729cee1f19921d85e4ac28e85f1336330e660"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'IDE's'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
+      "language": "AsciiDoc",
+      "line": 37,
+      "offset": 154,
+      "length": 5,
+      "code": {
+        "startLine": 35,
+        "length": 5,
+        "offset": 163,
+        "surroundingCode": "== Setup\n\nUsers find an extensive description of how to do this in the https://www.jetbrains.com/help/idea/creating-and-managing-modules.html#multimodule-projects[IDE's docs].\nThe following paragraph gives a quick start.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "ea42ab9eaa26cdf35a10fb1c2001d686c737b394126e02ba8bbcb78e4ab8add9"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
   "comment": "Typo: In word 'Passthrough'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
@@ -2695,6 +2695,35 @@
   "category": "Proofreading",
   "type": "Grammar",
   "severity": "High",
+  "comment": "The verb after \"to\" should be in the base form.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/antora.adoc",
+      "language": "AsciiDoc",
+      "line": 59,
+      "offset": 40,
+      "length": 5,
+      "code": {
+        "startLine": 57,
+        "length": 5,
+        "offset": 45,
+        "surroundingCode": "====\n\nThe plugin validates all references to files within the same component, and also across components.\n\nThe plugin also validates the referenced component and module names."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
+  },
+  "hash": "03db7fdb0b8f36aa0525f458c732f38edc8be782b9707bf2767c2494d4c33466"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
   "comment": "This word is normally spelled as one.",
   "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
   "sources": [
@@ -2702,11 +2731,41 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/antora.adoc",
       "language": "AsciiDoc",
-      "line": 63,
+      "line": 69,
+      "offset": 145,
+      "length": 12,
+      "code": {
+        "startLine": 67,
+        "length": 12,
+        "offset": 234,
+        "surroundingCode": "NOTE: Validation of component and module names requires plugin version 0.37.22 or later.\n\nTo learn more about how to bundle multiple Git repositories as one IntelliJ project, see the chapter on xref:features/advanced/multimodule.adoc[multi-module projects] for details.\n\n=== Antora editor support"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "66888921218faeae00f84ccbab04b06a2a51b4b36b9323ed2027f32ee6d290c6"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "This word is normally spelled as one.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/antora.adoc",
+      "language": "AsciiDoc",
+      "line": 75,
       "offset": 141,
       "length": 12,
       "code": {
-        "startLine": 61,
+        "startLine": 73,
         "length": 12,
         "offset": 287,
         "surroundingCode": "In the editor, the user can autocomplete filenames and references using kbd:[Ctrl+Space] and can navigate to a folder or file using kbd:[Ctrl+B].\n\nTo allow auto-completion for components that reside in different Git repositories, consider using a xref:features/advanced/multimodule.adoc[multi-module project].\n\n=== Antora YAML schema support"
@@ -2719,7 +2778,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "9eb6c3514caa88ee73ade149ebdf6cddf2b5e00dfd84603bd508e94a773d9502"
+  "hash": "04b34a7b1a3a53efd314ba03e40963f93b7c87ecb339854a627bde9a5114c531"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2732,11 +2791,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/antora.adoc",
       "language": "AsciiDoc",
-      "line": 83,
+      "line": 95,
       "offset": 87,
       "length": 10,
       "code": {
-        "startLine": 81,
+        "startLine": 93,
         "length": 10,
         "offset": 117,
         "surroundingCode": "=== Antora attributes support\n\nThe plugin reads all attributes defined in the module's `antora.yml` file's _asciidoc.attributes_ section and uses this for the preview and auto-completion.\n\nStarting with release 0.35.2 of the plugin, it also picks up attributes from an Antora playbook if this is within the same project."
@@ -2749,7 +2808,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "af53aedee1adc31c13cac00e940bc038704f144b428158f06f86079d7a5fee47"
+  "hash": "c76ee143659b2163a7cd2aab737b366bd7316b5304a40ff332a12d72b9bf9119"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2762,11 +2821,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/antora.adoc",
       "language": "AsciiDoc",
-      "line": 86,
+      "line": 98,
       "offset": 127,
       "length": 12,
       "code": {
-        "startLine": 84,
+        "startLine": 96,
         "length": 12,
         "offset": 259,
         "surroundingCode": "\nStarting with release 0.35.2 of the plugin, it also picks up attributes from an Antora playbook if this is within the same project.\nIf the playbook and the components are in different Git repositories, this requires a xref:features/advanced/multimodule.adoc[multi-module project].\n\nThe plugin sets multiple attributes to allow referencing files with the current Antora module:"
@@ -2776,10 +2835,9 @@
   "attributes": {
     "module": "project",
     "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
+    "baselineState": "new"
   },
-  "hash": "41d098dfd6caa287213a3e6f22c9a1d4c2dfa97f64d104047c07806681be7a0e"
+  "hash": "fafc2a3987151e3f286974ac9f7a48b67a2ae4945c15496b6f8108c9c0dd7af6"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2810,66 +2868,6 @@
     "baselineState": "unchanged"
   },
   "hash": "0fdcc0640622d73ff9fa0be2063266703900a1772cd6e0e862335adc9d0cea06"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
-  "comment": "Use plural nouns after 'one of'",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/installation.adoc",
-      "language": "AsciiDoc",
-      "line": 12,
-      "offset": 58,
-      "length": 6,
-      "code": {
-        "startLine": 10,
-        "length": 6,
-        "offset": 75,
-        "surroundingCode": "== Prerequisites\n\nTo use this plugin, you need to have one of the IntelliJ family of IDEs like IntelliJ IDEA, GoLand, WebStorm or PyCharm installed.\nSee below for <<google-android-studio,Android Studio>> and <<intellij-mps,IntelliJ MPS>>.\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "e841c2aae1e67e6bec93718645ecd3bea9ba87d09af39395c37eda77199fe535"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
-  "comment": "Incorrect grammar",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/installation.adoc",
-      "language": "AsciiDoc",
-      "line": 48,
-      "offset": 32,
-      "length": 4,
-      "code": {
-        "startLine": 46,
-        "length": 4,
-        "offset": 99,
-        "surroundingCode": "If you use MPS, go ahead and <<installplugin,install the plugin>>.\n\nSupport will be limited as MPS doesn't have all the APIs the plugin can hook into.\nHave a look at xref:faq/troubleshooting-mps.adoc[].\nPlease open an issue on GitHub if you want to contribute to making MPS support better."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "3ac2d05f0b4e5d88393abcedbdde5dd7d13f97f134d24cf57411cf167f896a30"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3443,6 +3441,66 @@
   "category": "Proofreading",
   "type": "Grammar",
   "severity": "High",
+  "comment": "Use plural nouns after 'one of'",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/installation.adoc",
+      "language": "AsciiDoc",
+      "line": 12,
+      "offset": 58,
+      "length": 6,
+      "code": {
+        "startLine": 10,
+        "length": 6,
+        "offset": 75,
+        "surroundingCode": "== Prerequisites\n\nTo use this plugin, you need to have one of the IntelliJ family of IDEs like IntelliJ IDEA, GoLand, WebStorm or PyCharm installed.\nSee below for <<google-android-studio,Android Studio>> and <<intellij-mps,IntelliJ MPS>>.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "e841c2aae1e67e6bec93718645ecd3bea9ba87d09af39395c37eda77199fe535"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Incorrect grammar",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/installation.adoc",
+      "language": "AsciiDoc",
+      "line": 48,
+      "offset": 32,
+      "length": 4,
+      "code": {
+        "startLine": 46,
+        "length": 4,
+        "offset": 99,
+        "surroundingCode": "If you use MPS, go ahead and <<installplugin,install the plugin>>.\n\nSupport will be limited as MPS doesn't have all the APIs the plugin can hook into.\nHave a look at xref:faq/troubleshooting-mps.adoc[].\nPlease open an issue on GitHub if you want to contribute to making MPS support better."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "3ac2d05f0b4e5d88393abcedbdde5dd7d13f97f134d24cf57411cf167f896a30"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
   "comment": "'type' usually goes with an article",
   "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
   "sources": [
@@ -3563,21 +3621,21 @@
   "category": "Proofreading",
   "type": "Grammar",
   "severity": "High",
-  "comment": "Multiple mistakes",
+  "comment": "'to' requires a base verb form",
   "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
   "sources": [
     {
       "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
       "language": "AsciiDoc",
-      "line": 37,
-      "offset": 12,
-      "length": 28,
+      "line": 15,
+      "offset": 45,
+      "length": 7,
       "code": {
-        "startLine": 35,
-        "length": 28,
-        "offset": 21,
-        "surroundingCode": "== Setup\n\nUsers find the extensive description in the https://www.jetbrains.com/help/idea/creating-and-managing-modules.html#multimodule-projects[IDE's docs].\nThe following paragraph gives a quick start.\n"
+        "startLine": 13,
+        "length": 7,
+        "offset": 183,
+        "surroundingCode": "IntelliJ sets the variables _env-idea_ and _env_ so that the user can render the texts differently when working with the Asciidoc plugin.\n\nThe plugin sets the variable _env-idea_ to _defined_, therefore the following works:\n\n[source,asciidoc]"
       }
     }
   ],
@@ -3587,27 +3645,27 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "b080b405118594cd2fee533e7d3540bf804c1e9c8b4e7e6247e197fe1d4e73aa"
+  "hash": "dc16af2d5febfa237a88daa10008814d8bd61ad6cce0ddd700b365800dfb5cf0"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
   "type": "Grammar",
   "severity": "High",
-  "comment": "'model' usually goes with an article",
+  "comment": "Use 'to' with the base verb form after 'choose'",
   "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
   "sources": [
     {
       "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/creating-html-and-pdf.adoc",
       "language": "AsciiDoc",
-      "line": 56,
-      "offset": 46,
-      "length": 5,
+      "line": 9,
+      "offset": 22,
+      "length": 6,
       "code": {
-        "startLine": 54,
-        "length": 5,
-        "offset": 116,
-        "surroundingCode": ". Select the folder with the other Git repository and press btn:[OK].\n\n. Choose option _Import module from external model_ if the repository contains sources from a build tool you recognize, or _Create module from existing sources_ if not.\n\n. Depending on the external model, complete the following dialogs."
+        "startLine": 7,
+        "length": 6,
+        "offset": 47,
+        "surroundingCode": "== Creating an HTML file\n\nThe user can choose _Create HTML from current file_ from the editor's action toolbar to convert the file to the HTML format.\nIf creation of the HTML file succeeds, the exported file is opened in the system's default browser.\n"
       }
     }
   ],
@@ -3617,36 +3675,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "c319f34ae114172e490c7b3b178c99e7b625427846ed08bdf4cad42ceecdf06b"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
-  "comment": "Incorrect verb form",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
-      "language": "AsciiDoc",
-      "line": 56,
-      "offset": 95,
-      "length": 5,
-      "code": {
-        "startLine": 54,
-        "length": 5,
-        "offset": 165,
-        "surroundingCode": ". Select the folder with the other Git repository and press btn:[OK].\n\n. Choose option _Import module from external model_ if the repository contains sources from a build tool you recognize, or _Create module from existing sources_ if not.\n\n. Depending on the external model, complete the following dialogs."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "baselineState": "new"
-  },
-  "hash": "154901efcb9dff733da18ac9a6bcb8ca373a6e7d32517029357cbf2bc78b2c38"
+  "hash": "593473c5081ac1c9d8ad6ac99431c76c4c7da2298df9191ec801b80e8b01837b"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3657,25 +3686,56 @@
   "sources": [
     {
       "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/creating-html-and-pdf.adoc",
       "language": "AsciiDoc",
-      "line": 56,
-      "offset": 132,
-      "length": 6,
+      "line": 14,
+      "offset": 29,
+      "length": 3,
       "code": {
-        "startLine": 54,
-        "length": 6,
-        "offset": 202,
-        "surroundingCode": ". Select the folder with the other Git repository and press btn:[OK].\n\n. Choose option _Import module from external model_ if the repository contains sources from a build tool you recognize, or _Create module from existing sources_ if not.\n\n. Depending on the external model, complete the following dialogs."
+        "startLine": 12,
+        "length": 3,
+        "offset": 52,
+        "surroundingCode": "== Creating a PDF file\n\nThe user can choose _Create PDF from current file_ from the editor's action toolbar to convert the file shown in the current AsciiDoc editor to a PDF using Asciidoctor PDF version 1.6.x.\nIf creation of the PDF file succeeds, the plugin opens the PDF in the system's PDF viewer.\nTo find out more how to configure the output and formatting, visit https://asciidoctor.org/docs/asciidoctor-pdf/."
       }
     }
   ],
   "attributes": {
     "module": "project",
     "inspectionName": "GrazieInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
-  "hash": "fbcdffe13a3d49e4e345570b6998842c289dad15f53430394099159ccf12644d"
+  "hash": "fba59ac1c258034fad8a78c66683f2f7cad8e25a041fdd01869150d19b287083"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Use 'to' with the base verb form after 'choose'",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/creating-html-and-pdf.adoc",
+      "language": "AsciiDoc",
+      "line": 14,
+      "offset": 22,
+      "length": 6,
+      "code": {
+        "startLine": 12,
+        "length": 6,
+        "offset": 45,
+        "surroundingCode": "== Creating a PDF file\n\nThe user can choose _Create PDF from current file_ from the editor's action toolbar to convert the file shown in the current AsciiDoc editor to a PDF using Asciidoctor PDF version 1.6.x.\nIf creation of the PDF file succeeds, the plugin opens the PDF in the system's PDF viewer.\nTo find out more how to configure the output and formatting, visit https://asciidoctor.org/docs/asciidoctor-pdf/."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "83f7d8f85029deb987a2df5e40aa09b59676b2333c88c92bab371845b534283a"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3919,66 +3979,6 @@
   "category": "Proofreading",
   "type": "Grammar",
   "severity": "High",
-  "comment": "Incorrect grammar",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/frontmatter.adoc",
-      "language": "AsciiDoc",
-      "line": 8,
-      "offset": 36,
-      "length": 2,
-      "code": {
-        "startLine": 6,
-        "length": 2,
-        "offset": 52,
-        "surroundingCode": "== How it works\n\nThe plugins highlight the contents in the editor as YAML content.\n\nIt set the attribute `skip-front-matter` by default for the preview, therefore hiding the front matter in the preview."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "de90706f705b0b39a2ace013707b9e7b16a899538f4cd86115987c5d02f7c796"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
-  "comment": "'to' requires a base verb form",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 15,
-      "offset": 45,
-      "length": 7,
-      "code": {
-        "startLine": 13,
-        "length": 7,
-        "offset": 183,
-        "surroundingCode": "IntelliJ sets the variables _env-idea_ and _env_ so that the user can render the texts differently when working with the Asciidoc plugin.\n\nThe plugin sets the variable _env-idea_ to _defined_, therefore the following works:\n\n[source,asciidoc]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "dc16af2d5febfa237a88daa10008814d8bd61ad6cce0ddd700b365800dfb5cf0"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
   "comment": "The word 'Install' is not a noun.",
   "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
   "sources": [
@@ -4004,6 +4004,126 @@
     "baselineState": "unchanged"
   },
   "hash": "8224b0f3030f6150c48fd27eca01b3d490ff0915ef7de221fe64a8f8ff4b37f1"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Subject-verb agreement seems to be violated",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/spring-rest-docs.adoc",
+      "language": "AsciiDoc",
+      "line": 8,
+      "offset": 21,
+      "length": 13,
+      "code": {
+        "startLine": 6,
+        "length": 13,
+        "offset": 72,
+        "surroundingCode": "NOTE: This requires version 0.30.6+ of the plugin.\n\n== What Spring REST Docs provides\n\nhttps://docs.spring.io/spring-restdocs/docs/current/reference/html5/[Spring REST Docs] allow the developer to write API documentation using information recorded in test cases."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "35ec5df8657613971f88f544d235fbe3d3d709431e2035096ae3da647bc147ee"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Subject-verb agreement seems to be violated",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/spring-rest-docs.adoc",
+      "language": "AsciiDoc",
+      "line": 13,
+      "offset": 37,
+      "length": 12,
+      "code": {
+        "startLine": 11,
+        "length": 12,
+        "offset": 132,
+        "surroundingCode": "These ensure that the examples in the documentation work with the current version of the code.\n\nWhen running the tests, Spring REST Docs creates a folder `generated-snippets` with the recorded examples.\nThe developer can reference these snippets in the documentation.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "8b83fa1ce77f943c8a92ff7269d7358394e234fcc97464b52c85ea78097107a0"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Subject-verb agreement seems to be violated",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/spring-rest-docs.adoc",
+      "language": "AsciiDoc",
+      "line": 54,
+      "offset": 22,
+      "length": 17,
+      "code": {
+        "startLine": 52,
+        "length": 17,
+        "offset": 41,
+        "surroundingCode": "== Example project\n\nThe Spring REST Docs projects provides an example project how to set up things: https://github.com/spring-projects/spring-restdocs/tree/master/samples/rest-notes-spring-hateoas\n\nAs the editor support requires the generated snippets-folder to be present, users need to run their tests to create and populate it before the editor support activates."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "445655ceb4b2b7f3a001378cfb20f08c0a83040153e5fbdfd1d966e133ac5abf"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Incorrect grammar",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/frontmatter.adoc",
+      "language": "AsciiDoc",
+      "line": 8,
+      "offset": 36,
+      "length": 2,
+      "code": {
+        "startLine": 6,
+        "length": 2,
+        "offset": 52,
+        "surroundingCode": "== How it works\n\nThe plugins highlight the contents in the editor as YAML content.\n\nIt set the attribute `skip-front-matter` by default for the preview, therefore hiding the front matter in the preview."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "de90706f705b0b39a2ace013707b9e7b16a899538f4cd86115987c5d02f7c796"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4278,96 +4398,6 @@
   "category": "Proofreading",
   "type": "Grammar",
   "severity": "High",
-  "comment": "Subject-verb agreement seems to be violated",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/spring-rest-docs.adoc",
-      "language": "AsciiDoc",
-      "line": 8,
-      "offset": 21,
-      "length": 13,
-      "code": {
-        "startLine": 6,
-        "length": 13,
-        "offset": 72,
-        "surroundingCode": "NOTE: This requires version 0.30.6+ of the plugin.\n\n== What Spring REST Docs provides\n\nhttps://docs.spring.io/spring-restdocs/docs/current/reference/html5/[Spring REST Docs] allow the developer to write API documentation using information recorded in test cases."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "35ec5df8657613971f88f544d235fbe3d3d709431e2035096ae3da647bc147ee"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
-  "comment": "Subject-verb agreement seems to be violated",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/spring-rest-docs.adoc",
-      "language": "AsciiDoc",
-      "line": 13,
-      "offset": 37,
-      "length": 12,
-      "code": {
-        "startLine": 11,
-        "length": 12,
-        "offset": 132,
-        "surroundingCode": "These ensure that the examples in the documentation work with the current version of the code.\n\nWhen running the tests, Spring REST Docs creates a folder `generated-snippets` with the recorded examples.\nThe developer can reference these snippets in the documentation.\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "8b83fa1ce77f943c8a92ff7269d7358394e234fcc97464b52c85ea78097107a0"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
-  "comment": "Subject-verb agreement seems to be violated",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/spring-rest-docs.adoc",
-      "language": "AsciiDoc",
-      "line": 54,
-      "offset": 22,
-      "length": 17,
-      "code": {
-        "startLine": 52,
-        "length": 17,
-        "offset": 41,
-        "surroundingCode": "== Example project\n\nThe Spring REST Docs projects provides an example project how to set up things: https://github.com/spring-projects/spring-restdocs/tree/master/samples/rest-notes-spring-hateoas\n\nAs the editor support requires the generated snippets-folder to be present, users need to run their tests to create and populate it before the editor support activates."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "445655ceb4b2b7f3a001378cfb20f08c0a83040153e5fbdfd1d966e133ac5abf"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
   "comment": "'source' usually goes with an article",
   "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
   "sources": [
@@ -4608,21 +4638,21 @@
   "category": "Proofreading",
   "type": "Grammar",
   "severity": "High",
-  "comment": "Use 'to' with the base verb form after 'choose'",
+  "comment": "'model' usually goes with an article",
   "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
   "sources": [
     {
       "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/creating-html-and-pdf.adoc",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
       "language": "AsciiDoc",
-      "line": 9,
-      "offset": 22,
-      "length": 6,
+      "line": 56,
+      "offset": 46,
+      "length": 5,
       "code": {
-        "startLine": 7,
-        "length": 6,
-        "offset": 47,
-        "surroundingCode": "== Creating an HTML file\n\nThe user can choose _Create HTML from current file_ from the editor's action toolbar to convert the file to the HTML format.\nIf creation of the HTML file succeeds, the exported file is opened in the system's default browser.\n"
+        "startLine": 54,
+        "length": 5,
+        "offset": 116,
+        "surroundingCode": ". Select the folder with the other Git repository and press btn:[OK].\n\n. Choose option _Import module from external model_ if the repository contains sources from a build tool you recognize, or _Create module from existing sources_ if not.\n\n. Depending on the external model, complete the following dialogs."
       }
     }
   ],
@@ -4632,7 +4662,36 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "593473c5081ac1c9d8ad6ac99431c76c4c7da2298df9191ec801b80e8b01837b"
+  "hash": "6666ee38e2d94405e22c35786c4285980aab763201ab6493a2bfeafff4f51bfc"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Incorrect verb form",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
+      "language": "AsciiDoc",
+      "line": 56,
+      "offset": 95,
+      "length": 5,
+      "code": {
+        "startLine": 54,
+        "length": 5,
+        "offset": 165,
+        "surroundingCode": ". Select the folder with the other Git repository and press btn:[OK].\n\n. Choose option _Import module from external model_ if the repository contains sources from a build tool you recognize, or _Create module from existing sources_ if not.\n\n. Depending on the external model, complete the following dialogs."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
+  },
+  "hash": "dbdcf518aba8a0537b4fe6dbcbf1e478adcd7fca78e993dc5e30effab1cef106"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4643,56 +4702,25 @@
   "sources": [
     {
       "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/creating-html-and-pdf.adoc",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
       "language": "AsciiDoc",
-      "line": 14,
-      "offset": 29,
-      "length": 3,
-      "code": {
-        "startLine": 12,
-        "length": 3,
-        "offset": 52,
-        "surroundingCode": "== Creating a PDF file\n\nThe user can choose _Create PDF from current file_ from the editor's action toolbar to convert the file shown in the current AsciiDoc editor to a PDF using Asciidoctor PDF version 1.6.x.\nIf creation of the PDF file succeeds, the plugin opens the PDF in the system's PDF viewer.\nTo find out more how to configure the output and formatting, visit https://asciidoctor.org/docs/asciidoctor-pdf/."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "fba59ac1c258034fad8a78c66683f2f7cad8e25a041fdd01869150d19b287083"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
-  "comment": "Use 'to' with the base verb form after 'choose'",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/creating-html-and-pdf.adoc",
-      "language": "AsciiDoc",
-      "line": 14,
-      "offset": 22,
+      "line": 56,
+      "offset": 132,
       "length": 6,
       "code": {
-        "startLine": 12,
+        "startLine": 54,
         "length": 6,
-        "offset": 45,
-        "surroundingCode": "== Creating a PDF file\n\nThe user can choose _Create PDF from current file_ from the editor's action toolbar to convert the file shown in the current AsciiDoc editor to a PDF using Asciidoctor PDF version 1.6.x.\nIf creation of the PDF file succeeds, the plugin opens the PDF in the system's PDF viewer.\nTo find out more how to configure the output and formatting, visit https://asciidoctor.org/docs/asciidoctor-pdf/."
+        "offset": 202,
+        "surroundingCode": ". Select the folder with the other Git repository and press btn:[OK].\n\n. Choose option _Import module from external model_ if the repository contains sources from a build tool you recognize, or _Create module from existing sources_ if not.\n\n. Depending on the external model, complete the following dialogs."
       }
     }
   ],
   "attributes": {
     "module": "project",
     "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
+    "baselineState": "new"
   },
-  "hash": "83f7d8f85029deb987a2df5e40aa09b59676b2333c88c92bab371845b534283a"
+  "hash": "eed02eede8cfb7ac6535db6b96f585abbae79ea809991420d84803ee223fba10"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
