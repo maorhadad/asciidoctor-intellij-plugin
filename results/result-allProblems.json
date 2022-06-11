@@ -987,66 +987,6 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'ifeval'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 32,
-      "offset": 2,
-      "length": 6,
-      "code": {
-        "startLine": 30,
-        "length": 6,
-        "offset": 24,
-        "surroundingCode": "[source,asciidoc]\n----\n\\ifeval::[{env}!=idea]\nrender this text WHEN NOT running IntelliJ Asciidoctor Plugin\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "e06620fc029728488f5cd97d6586d60c385686735cac956ac02c306e2c57ab9b"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'ifeval'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 36,
-      "offset": 2,
-      "length": 6,
-      "code": {
-        "startLine": 34,
-        "length": 6,
-        "offset": 13,
-        "surroundingCode": "\\endif::[]\n\n\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "c93694662a02ac1050144d7e143c901cc415e240625d87479c2c0909d797dcac"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
   "comment": "Typo: In word 'ifndef'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
@@ -1102,6 +1042,66 @@
     "baselineState": "unchanged"
   },
   "hash": "a729b46c0e468f99a8bbf7bf98f8cfc00c5de4a8ccc29e16aeef38f95777478c"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifeval'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 32,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 30,
+        "length": 6,
+        "offset": 24,
+        "surroundingCode": "[source,asciidoc]\n----\n\\ifeval::[{env}!=idea]\nrender this text WHEN NOT running IntelliJ Asciidoctor Plugin\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "e06620fc029728488f5cd97d6586d60c385686735cac956ac02c306e2c57ab9b"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifeval'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 36,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 34,
+        "length": 6,
+        "offset": 13,
+        "surroundingCode": "\\endif::[]\n\n\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "c93694662a02ac1050144d7e143c901cc415e240625d87479c2c0909d797dcac"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2321,7 +2321,7 @@
         "startLine": 18,
         "length": 11,
         "offset": 293,
-        "surroundingCode": "    <inspection_tool class=\"AsciiDocXrefWithNaturalCrossReference\" enabled=\"true\" level=\"WARNING\" enabled_by_default=\"true\" />\n    <inspection_tool class=\"AsciiDocAttributeShouldBeDefined\" enabled=\"true\" level=\"WARNING\" enabled_by_default=\"true\" />\n    <inspection_tool class=\"AsciiDocObsoletePassthrough\" enabled=\"true\" level=\"WARNING\" enabled_by_default=\"true\" />\n    <inspection_tool class=\"SpellCheckingInspection\" enabled=\"true\" level=\"WARNING\" enabled_by_default=\"true\">\n      <option name=\"processCode\" value=\"true\" />"
+        "surroundingCode": "    <inspection_tool class=\"AsciiDocXrefWithNaturalCrossReference\" enabled=\"true\" level=\"WARNING\" enabled_by_default=\"true\" />\n    <inspection_tool class=\"AsciiDocAttributeShouldBeDefined\" enabled=\"true\" level=\"WARNING\" enabled_by_default=\"true\" />\n    <inspection_tool class=\"AsciiDocObsoletePassthrough\" enabled=\"true\" level=\"WARNING\" enabled_by_default=\"true\" />\n    <inspection_tool class=\"AsciiDocUnresolvedAntoraModule\" enabled=\"true\" level=\"ERROR\" enabled_by_default=\"true\" />\n    <inspection_tool class=\"SpellCheckingInspection\" enabled=\"true\" level=\"WARNING\" enabled_by_default=\"true\">"
       }
     }
   ],
@@ -2330,7 +2330,65 @@
     "inspectionName": "SpellCheckingInspection",
     "baselineState": "new"
   },
-  "hash": "38ed892a4347647ca5676f1274d3c7c3db176e0db3e6740e1bcf23f8649d4e29"
+  "hash": "97b7f4de139a43563766cf1ee6b8de43ac8b8028aa535252ced156c3bfd7bf8b"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Unresolved Antora module",
+  "severity": "Critical",
+  "comment": "Antora Module doesn't resolve",
+  "detailsInfo": "When Antora modules don't resolve, this will result a broken link. In order for this check to work, all dependent modules need to be open in one project.\n\n\nThe check will not be applied to Antora references that contain a version number, and no\ncomponent with that name and version is present in the project.\nThe plugin will then assume that this information might be stored on a different branch or repository, and that such a check would be impossible to perform.\n\n<br />",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/antora.adoc",
+      "language": "AsciiDoc",
+      "line": 81,
+      "offset": 6,
+      "length": 26,
+      "code": {
+        "startLine": 79,
+        "length": 26,
+        "offset": 66,
+        "surroundingCode": "----\n// suppress inspection \"AsciiDocUnresolvedAntoraModule\"\nxref:othercomponent:othermodule:index.adoc[]\n----\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "AsciiDocUnresolvedAntoraModule",
+    "baselineState": "new"
+  },
+  "hash": "877221f9a3abb2bc5ae5118719f1d9b9a28563dbca6cf7c826b68355d147f824"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Unresolved Antora module",
+  "severity": "Critical",
+  "comment": "Antora Module doesn't resolve",
+  "detailsInfo": "When Antora modules don't resolve, this will result a broken link. In order for this check to work, all dependent modules need to be open in one project.\n\n\nThe check will not be applied to Antora references that contain a version number, and no\ncomponent with that name and version is present in the project.\nThe plugin will then assume that this information might be stored on a different branch or repository, and that such a check would be impossible to perform.\n\n<br />",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/examples/antora.adoc",
+      "language": "AsciiDoc",
+      "line": 27,
+      "offset": 6,
+      "length": 16,
+      "code": {
+        "startLine": 25,
+        "length": 16,
+        "offset": 65,
+        "surroundingCode": "\n// reference documents in a different component and module\nxref:component:module:mail-component.adoc[SMTP]\n// end::example[]\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "AsciiDocUnresolvedAntoraModule",
+    "baselineState": "new"
+  },
+  "hash": "cd86d75bcdf58a35b9585da5995c69bc2976a52f030833389a6ed910f94425c1"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
