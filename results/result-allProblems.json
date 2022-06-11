@@ -272,6 +272,35 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
+  "comment": "Typo: In word 'IDE's'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/antora.adoc",
+      "language": "AsciiDoc",
+      "line": 75,
+      "offset": 122,
+      "length": 5,
+      "code": {
+        "startLine": 73,
+        "length": 5,
+        "offset": 217,
+        "surroundingCode": "\nFor this to work, all components of the Antora site need to be opened in one IntelliJ project.\nIf this isn't suitable in a given setup, suppress the inspection for a given reference, or disable the inspection in the IDE's setting for the given project.\n\n.Example how to disable the inspection for a single reference"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "baselineState": "new"
+  },
+  "hash": "2b78cca74b3e56103c04e0ec22201546641d96369ab8edc116501aad896ce1b1"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
   "comment": "Typo: In word 'passthrough'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
@@ -483,6 +512,66 @@
   "sources": [
     {
       "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/preview/jcef-preview.adoc",
+      "language": "AsciiDoc",
+      "line": 73,
+      "offset": 53,
+      "length": 5,
+      "code": {
+        "startLine": 71,
+        "length": 5,
+        "offset": 75,
+        "surroundingCode": "Possible Workarounds:\n\n* Enable \"`Confirm before existing the IDE`\" in the IDE's settings.\nOnce the DevTools have been closed for an editor, the editor needs to be closed and re-opened before DevTools can be opened again.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "58e814b95df862da72f7d8ae5e00532a367eef34b496bd9ab80865dd498a2956"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'jbrsdk'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/preview/jcef-preview.adoc",
+      "language": "AsciiDoc",
+      "line": 121,
+      "offset": 21,
+      "length": 6,
+      "code": {
+        "startLine": 119,
+        "length": 6,
+        "offset": 141,
+        "surroundingCode": "* Install the plugin \"`Choose Runtime`\".\n* Open menu item menu:Help[Find action...] and search for \"`Choose Runtime...`\"\n* Choose a runtime \"jbrsdk-11_0_...tar.gz\" or later and install it.\nThe IDE will restart.\n* Go to the settings of the AsciiDoc plugin and check if the preview is set to \"`JCEF Browser`\"."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "6967154e9dbacb337545b39c6df95772a870efd210b9d53c8d7b525b06de5855"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'IDE's'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
       "path": "users-guide/modules/ROOT/pages/faq.adoc",
       "language": "AsciiDoc",
       "line": 36,
@@ -593,66 +682,6 @@
     "baselineState": "unchanged"
   },
   "hash": "4ecc34702c629a14825e63222c96def023db3db1c20112d023ace427567f7df7"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'IDE's'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/preview/jcef-preview.adoc",
-      "language": "AsciiDoc",
-      "line": 73,
-      "offset": 53,
-      "length": 5,
-      "code": {
-        "startLine": 71,
-        "length": 5,
-        "offset": 75,
-        "surroundingCode": "Possible Workarounds:\n\n* Enable \"`Confirm before existing the IDE`\" in the IDE's settings.\nOnce the DevTools have been closed for an editor, the editor needs to be closed and re-opened before DevTools can be opened again.\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "58e814b95df862da72f7d8ae5e00532a367eef34b496bd9ab80865dd498a2956"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'jbrsdk'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/preview/jcef-preview.adoc",
-      "language": "AsciiDoc",
-      "line": 121,
-      "offset": 21,
-      "length": 6,
-      "code": {
-        "startLine": 119,
-        "length": 6,
-        "offset": 141,
-        "surroundingCode": "* Install the plugin \"`Choose Runtime`\".\n* Open menu item menu:Help[Find action...] and search for \"`Choose Runtime...`\"\n* Choose a runtime \"jbrsdk-11_0_...tar.gz\" or later and install it.\nThe IDE will restart.\n* Go to the settings of the AsciiDoc plugin and check if the preview is set to \"`JCEF Browser`\"."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "6967154e9dbacb337545b39c6df95772a870efd210b9d53c8d7b525b06de5855"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1738,21 +1767,21 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'IDE's'",
+  "comment": "Typo: In word 'jbrsdk'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
     {
       "type": "file",
-      "path": "users-guide/modules/ROOT/pages/faq/indent-missing-on-pasting.adoc",
+      "path": "users-guide/modules/ROOT/pages/faq/blurry-preview.adoc",
       "language": "AsciiDoc",
-      "line": 23,
-      "offset": 19,
-      "length": 5,
+      "line": 74,
+      "offset": 21,
+      "length": 6,
       "code": {
-        "startLine": 21,
-        "length": 5,
-        "offset": 181,
-        "surroundingCode": "Open a https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues[GitHub issue with a minimal example to reproduce the observed behavior] to get it fixed.\n\n== Remedy: Change IDE's configuration\n\nThe behavior can be changed via menu:File[Settings... > Editor > Smart Keys]."
+        "startLine": 72,
+        "length": 6,
+        "offset": 278,
+        "surroundingCode": "\n* Install the plugin \"`Choose Runtime`\" as described in the JetBrains knowledge base \"`https://intellij-support.jetbrains.com/hc/en-us/articles/206544879-Selecting-the-JDK-version-the-IDE-will-run-under[Selecting the JDK version the IDE will run under^]`\".\n* Choose a runtime \"jbrsdk-11_0_8-...-x64-b944.34.tar.gz\" or later and install it. The IDE will restart.\n* Go to the settings of the AsciiDoc plugin and check if the preview is set to \"`JCEF Browser`\" (recommended if available) or \"`JavaFX WebView`\".\n"
       }
     }
   ],
@@ -1762,7 +1791,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "bd5a702a75c9aac8531d6f6c337deceac10b52c8d76796da652b5dbcfee910a1"
+  "hash": "f3b3ac16727a0864959f8176c4fcb139cce047a08dddd61dbda73daf82e27e7d"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1978,21 +2007,21 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'jbrsdk'",
+  "comment": "Typo: In word 'IDE's'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
     {
       "type": "file",
-      "path": "users-guide/modules/ROOT/pages/faq/blurry-preview.adoc",
+      "path": "users-guide/modules/ROOT/pages/faq/indent-missing-on-pasting.adoc",
       "language": "AsciiDoc",
-      "line": 74,
-      "offset": 21,
-      "length": 6,
+      "line": 23,
+      "offset": 19,
+      "length": 5,
       "code": {
-        "startLine": 72,
-        "length": 6,
-        "offset": 278,
-        "surroundingCode": "\n* Install the plugin \"`Choose Runtime`\" as described in the JetBrains knowledge base \"`https://intellij-support.jetbrains.com/hc/en-us/articles/206544879-Selecting-the-JDK-version-the-IDE-will-run-under[Selecting the JDK version the IDE will run under^]`\".\n* Choose a runtime \"jbrsdk-11_0_8-...-x64-b944.34.tar.gz\" or later and install it. The IDE will restart.\n* Go to the settings of the AsciiDoc plugin and check if the preview is set to \"`JCEF Browser`\" (recommended if available) or \"`JavaFX WebView`\".\n"
+        "startLine": 21,
+        "length": 5,
+        "offset": 181,
+        "surroundingCode": "Open a https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues[GitHub issue with a minimal example to reproduce the observed behavior] to get it fixed.\n\n== Remedy: Change IDE's configuration\n\nThe behavior can be changed via menu:File[Settings... > Editor > Smart Keys]."
       }
     }
   ],
@@ -2002,7 +2031,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "f3b3ac16727a0864959f8176c4fcb139cce047a08dddd61dbda73daf82e27e7d"
+  "hash": "bd5a702a75c9aac8531d6f6c337deceac10b52c8d76796da652b5dbcfee910a1"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2709,7 +2738,7 @@
         "startLine": 57,
         "length": 5,
         "offset": 45,
-        "surroundingCode": "====\n\nThe plugin validates all references to files within the same component, and also across components.\n\nThe plugin also validates the referenced component and module names."
+        "surroundingCode": "====\n\nThe plugin validates all references to files within the same component, and also across components.\n\n=== Antora component and module name validation"
       }
     }
   ],
@@ -2718,7 +2747,7 @@
     "inspectionName": "GrazieInspection",
     "baselineState": "new"
   },
-  "hash": "03db7fdb0b8f36aa0525f458c732f38edc8be782b9707bf2767c2494d4c33466"
+  "hash": "9f5a436f912ddc4de482988ea309f18bce2a5f3c8382e1e58e05bf58c3e98b27"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2731,14 +2760,14 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/antora.adoc",
       "language": "AsciiDoc",
-      "line": 69,
+      "line": 84,
       "offset": 145,
       "length": 12,
       "code": {
-        "startLine": 67,
+        "startLine": 82,
         "length": 12,
-        "offset": 234,
-        "surroundingCode": "NOTE: Validation of component and module names requires plugin version 0.37.22 or later.\n\nTo learn more about how to bundle multiple Git repositories as one IntelliJ project, see the chapter on xref:features/advanced/multimodule.adoc[multi-module projects] for details.\n\n=== Antora editor support"
+        "offset": 150,
+        "surroundingCode": "----\n\nTo learn more about how to bundle multiple Git repositories as one IntelliJ project, see the chapter on xref:features/advanced/multimodule.adoc[multi-module projects] for details.\n\n=== Antora editor support"
       }
     }
   ],
@@ -2748,7 +2777,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "66888921218faeae00f84ccbab04b06a2a51b4b36b9323ed2027f32ee6d290c6"
+  "hash": "13b35cb77357fdc04b1d6b40967d731a2e0d0af7042876dc8a6ab616e474768b"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2761,11 +2790,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/antora.adoc",
       "language": "AsciiDoc",
-      "line": 75,
+      "line": 90,
       "offset": 141,
       "length": 12,
       "code": {
-        "startLine": 73,
+        "startLine": 88,
         "length": 12,
         "offset": 287,
         "surroundingCode": "In the editor, the user can autocomplete filenames and references using kbd:[Ctrl+Space] and can navigate to a folder or file using kbd:[Ctrl+B].\n\nTo allow auto-completion for components that reside in different Git repositories, consider using a xref:features/advanced/multimodule.adoc[multi-module project].\n\n=== Antora YAML schema support"
@@ -2778,7 +2807,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "04b34a7b1a3a53efd314ba03e40963f93b7c87ecb339854a627bde9a5114c531"
+  "hash": "2e9a0724ddc69cfb111ffa9b25546b6178ed73faf974c9d1d1f53d7857128742"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2791,11 +2820,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/antora.adoc",
       "language": "AsciiDoc",
-      "line": 95,
+      "line": 110,
       "offset": 87,
       "length": 10,
       "code": {
-        "startLine": 93,
+        "startLine": 108,
         "length": 10,
         "offset": 117,
         "surroundingCode": "=== Antora attributes support\n\nThe plugin reads all attributes defined in the module's `antora.yml` file's _asciidoc.attributes_ section and uses this for the preview and auto-completion.\n\nStarting with release 0.35.2 of the plugin, it also picks up attributes from an Antora playbook if this is within the same project."
@@ -2808,7 +2837,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "c76ee143659b2163a7cd2aab737b366bd7316b5304a40ff332a12d72b9bf9119"
+  "hash": "413076036f1d7d4af3c7018236169fb2009f833cb567d507c700851b80028034"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2821,11 +2850,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/antora.adoc",
       "language": "AsciiDoc",
-      "line": 98,
+      "line": 113,
       "offset": 127,
       "length": 12,
       "code": {
-        "startLine": 96,
+        "startLine": 111,
         "length": 12,
         "offset": 259,
         "surroundingCode": "\nStarting with release 0.35.2 of the plugin, it also picks up attributes from an Antora playbook if this is within the same project.\nIf the playbook and the components are in different Git repositories, this requires a xref:features/advanced/multimodule.adoc[multi-module project].\n\nThe plugin sets multiple attributes to allow referencing files with the current Antora module:"
@@ -2837,7 +2866,7 @@
     "inspectionName": "GrazieInspection",
     "baselineState": "new"
   },
-  "hash": "fafc2a3987151e3f286974ac9f7a48b67a2ae4945c15496b6f8108c9c0dd7af6"
+  "hash": "c8882e20f31faecea7ddcdab578f06b9812789cd17ac8c4ae1eaebc7cade6c3f"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3979,36 +4008,6 @@
   "category": "Proofreading",
   "type": "Grammar",
   "severity": "High",
-  "comment": "The word 'Install' is not a noun.",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/asciidoclet.adoc",
-      "language": "AsciiDoc",
-      "line": 30,
-      "offset": 21,
-      "length": 7,
-      "code": {
-        "startLine": 28,
-        "length": 7,
-        "offset": 100,
-        "surroundingCode": ". Select _Marketplace_ tab if it is not selected yet\n. Search for 'asciidoclet'\n. Click on the btn:[Install] button. +\nAs the Asciidoclet plugin depends on the AsciiDoc plugin, the IDE will ask to install the AsciiDoc plugin as well if it is not already installed.\n. Once the download is complete, restart the IDE"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "8224b0f3030f6150c48fd27eca01b3d490ff0915ef7de221fe64a8f8ff4b37f1"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
   "comment": "Subject-verb agreement seems to be violated",
   "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
   "sources": [
@@ -4094,6 +4093,36 @@
     "baselineState": "unchanged"
   },
   "hash": "445655ceb4b2b7f3a001378cfb20f08c0a83040153e5fbdfd1d966e133ac5abf"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "The word 'Install' is not a noun.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/asciidoclet.adoc",
+      "language": "AsciiDoc",
+      "line": 30,
+      "offset": 21,
+      "length": 7,
+      "code": {
+        "startLine": 28,
+        "length": 7,
+        "offset": 100,
+        "surroundingCode": ". Select _Marketplace_ tab if it is not selected yet\n. Search for 'asciidoclet'\n. Click on the btn:[Install] button. +\nAs the Asciidoclet plugin depends on the AsciiDoc plugin, the IDE will ask to install the AsciiDoc plugin as well if it is not already installed.\n. Once the download is complete, restart the IDE"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "8224b0f3030f6150c48fd27eca01b3d490ff0915ef7de221fe64a8f8ff4b37f1"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4248,36 +4277,6 @@
   "category": "Proofreading",
   "type": "Grammar",
   "severity": "High",
-  "comment": "The genitive ('s) may be missing.",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/faq/errno-enoent.adoc",
-      "language": "AsciiDoc",
-      "line": 20,
-      "offset": 1,
-      "length": 13,
-      "code": {
-        "startLine": 18,
-        "length": 13,
-        "offset": 89,
-        "surroundingCode": "\nThis seems to happen mostly on Windows systems as they don't default to UTF-8 charsets.\nLinux systems usually default to UTF-8 and are not affected.\n\n== Cause: Folder names with non-US-ASCII characters"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "f66feb6f290ed650209404d5125d8c411ed174ee50216ed3afb7b2b7d3c00c87"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
   "comment": "The singular proper name 'JavaFX' must be used with a third-person or a past tense verb.",
   "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
   "sources": [
@@ -4393,6 +4392,36 @@
     "baselineState": "unchanged"
   },
   "hash": "c4a686154f200c1eab7cce7a31d7bdf96cdee4778587419752b94fb0ed8afb60"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "The genitive ('s) may be missing.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/faq/errno-enoent.adoc",
+      "language": "AsciiDoc",
+      "line": 20,
+      "offset": 1,
+      "length": 13,
+      "code": {
+        "startLine": 18,
+        "length": 13,
+        "offset": 89,
+        "surroundingCode": "\nThis seems to happen mostly on Windows systems as they don't default to UTF-8 charsets.\nLinux systems usually default to UTF-8 and are not affected.\n\n== Cause: Folder names with non-US-ASCII characters"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "f66feb6f290ed650209404d5125d8c411ed174ee50216ed3afb7b2b7d3c00c87"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4608,36 +4637,6 @@
   "category": "Proofreading",
   "type": "Grammar",
   "severity": "High",
-  "comment": "Incorrect grammar",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/quick-start.adoc",
-      "language": "AsciiDoc",
-      "line": 21,
-      "offset": 38,
-      "length": 7,
-      "code": {
-        "startLine": 19,
-        "length": 7,
-        "offset": 50,
-        "surroundingCode": "[WARNING]\n--\nPlease use the pre-bundled JetBrains OpenJDK Runtime 11 to run your IDE. This provides the best live preview based on JavaFX or JCEF. You can check this in the menu menu:Help[About].\n\nIt should state:"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "f8a440520c42ad3a898d5eb7388d1f8d086da4d5c90648b4fb2bd0254cc35849"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
   "comment": "'model' usually goes with an article",
   "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
   "sources": [
@@ -4721,6 +4720,36 @@
     "baselineState": "new"
   },
   "hash": "eed02eede8cfb7ac6535db6b96f585abbae79ea809991420d84803ee223fba10"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Incorrect grammar",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/quick-start.adoc",
+      "language": "AsciiDoc",
+      "line": 21,
+      "offset": 38,
+      "length": 7,
+      "code": {
+        "startLine": 19,
+        "length": 7,
+        "offset": 50,
+        "surroundingCode": "[WARNING]\n--\nPlease use the pre-bundled JetBrains OpenJDK Runtime 11 to run your IDE. This provides the best live preview based on JavaFX or JCEF. You can check this in the menu menu:Help[About].\n\nIt should state:"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "f8a440520c42ad3a898d5eb7388d1f8d086da4d5c90648b4fb2bd0254cc35849"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
