@@ -3087,11 +3087,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/creating-docx.adoc",
       "language": "AsciiDoc",
-      "line": 16,
+      "line": 17,
       "offset": 22,
       "length": 6,
       "code": {
-        "startLine": 14,
+        "startLine": 15,
         "length": 6,
         "offset": 44,
         "surroundingCode": "== Creating DOCX file\n\nThe user can choose _Create DOCX from current file_ from the editor's action toolbar to convert the current file to the DOCX format.\nIf creation of the DOCX file succeeds, the exported file is opened in the system's default application, for example Microsoft Word or LibreOffice.\n"
@@ -3103,7 +3103,7 @@
     "inspectionName": "GrazieInspection",
     "baselineState": "new"
   },
-  "hash": "e8c5db25efd64a402f42462d25c7fbefba9d88b922322b2fdb47147ac0b7ab86"
+  "hash": "d172d50528d8eafe02d687cc13a8b257a4ad91ac3ad411afde4f48846aff7992"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3116,11 +3116,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/creating-docx.adoc",
       "language": "AsciiDoc",
-      "line": 17,
+      "line": 18,
       "offset": 105,
       "length": 11,
       "code": {
-        "startLine": 15,
+        "startLine": 16,
         "length": 11,
         "offset": 238,
         "surroundingCode": "\nThe user can choose _Create DOCX from current file_ from the editor's action toolbar to convert the current file to the DOCX format.\nIf creation of the DOCX file succeeds, the exported file is opened in the system's default application, for example Microsoft Word or LibreOffice.\n\n=== Downloading Pandoc"
@@ -3132,7 +3132,7 @@
     "inspectionName": "GrazieInspection",
     "baselineState": "new"
   },
-  "hash": "dc4cc3835db8f49ae7319b066ea37086ba6e662fda7a6ecf87ab58315fd54c46"
+  "hash": "a9ce858d9837f048b52e4255e972176f89953ecfca6e80eebb63d2385538fdc3"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
