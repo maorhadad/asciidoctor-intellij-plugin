@@ -1765,36 +1765,6 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'IDE's'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/faq/jcef-no-proxy-support.adoc",
-      "language": "AsciiDoc",
-      "line": 22,
-      "offset": 38,
-      "length": 5,
-      "code": {
-        "startLine": 20,
-        "length": 5,
-        "offset": 91,
-        "surroundingCode": "== Cause: Old versions of JCEF don't support proxies\n\nThe JCEF preview doesn't support the IDE's proxy settings in version 2020.3 and earlier.\n\nhttps://youtrack.jetbrains.com/issue/JBR-2605[The JetBrains issue tracker shows] that this is fixed in release 2021.1 Beta 3 (Build 211.6556.6)."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "0262d31643129266cec737addefeb764562947abd096e0c539624f71f26e1ff3"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
   "comment": "Typo: In word 'jbrsdk'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
@@ -1820,6 +1790,36 @@
     "baselineState": "unchanged"
   },
   "hash": "f3b3ac16727a0864959f8176c4fcb139cce047a08dddd61dbda73daf82e27e7d"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'IDE's'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/faq/jcef-no-proxy-support.adoc",
+      "language": "AsciiDoc",
+      "line": 22,
+      "offset": 38,
+      "length": 5,
+      "code": {
+        "startLine": 20,
+        "length": 5,
+        "offset": 91,
+        "surroundingCode": "== Cause: Old versions of JCEF don't support proxies\n\nThe JCEF preview doesn't support the IDE's proxy settings in version 2020.3 and earlier.\n\nhttps://youtrack.jetbrains.com/issue/JBR-2605[The JetBrains issue tracker shows] that this is fixed in release 2021.1 Beta 3 (Build 211.6556.6)."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "0262d31643129266cec737addefeb764562947abd096e0c539624f71f26e1ff3"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2389,6 +2389,35 @@
     "baselineState": "unchanged"
   },
   "hash": "73375151491493dc5f9e9d63e41674e1e693a27f566f74ccd660e0046cd7e0a0"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Style",
+  "severity": "High",
+  "comment": "Chained 'of' phrases might be hard to read",
+  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/creating-pdf.adoc",
+      "language": "AsciiDoc",
+      "line": 23,
+      "offset": 16,
+      "length": 28,
+      "code": {
+        "startLine": 21,
+        "length": 28,
+        "offset": 71,
+        "surroundingCode": "image::features/advanced/pdf-document-properties.png[]\n\nA full history of the different versions of Asciidoctor PDF included in each plugin version is available in https://github.com/asciidoctor/asciidoctor-intellij-plugin/blob/main/CHANGELOG.adoc[the changelog of the plugin].\n\n== Downloading Asciidoctor PDF support"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "Style",
+    "baselineState": "new"
+  },
+  "hash": "f65e61566f7ccc41a7b3c7ac4707193ca2c21a60049650d2b5b9925e56cf5f16"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4338,14 +4367,14 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/creating-pdf.adoc",
       "language": "AsciiDoc",
-      "line": 7,
+      "line": 9,
       "offset": 29,
       "length": 3,
       "code": {
-        "startLine": 5,
+        "startLine": 7,
         "length": 3,
-        "offset": 43,
-        "surroundingCode": "{description}\n\nThe user can choose _Create PDF from current file_ from the editor's action toolbar to convert the file shown in the current AsciiDoc editor to a PDF using Asciidoctor PDF version 2.1.x.\nIf creation of the PDF file succeeds, the plugin opens the PDF in the system's PDF viewer.\nTo find out more how to configure the output and formatting, visit https://asciidoctor.org/docs/asciidoctor-pdf/."
+        "offset": 45,
+        "surroundingCode": "== How it works\n\nThe user can choose _Create PDF from current file_ from the editor's action toolbar to convert the file shown in the current AsciiDoc editor to a PDF using Asciidoctor PDF.\n\nIf creation of the PDF file succeeds, the plugin opens the PDF in the system's PDF viewer."
       }
     }
   ],
@@ -4354,7 +4383,7 @@
     "inspectionName": "GrazieInspection",
     "baselineState": "new"
   },
-  "hash": "30a0db1cdf97e37dae46ed49f71de94381c190516bbc4cdb730c2db9bb9f9c55"
+  "hash": "b3d33cfdae961e02b83091cf18091929d9a0b083cd503c2b644d9606b00c8615"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4367,14 +4396,14 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/creating-pdf.adoc",
       "language": "AsciiDoc",
-      "line": 7,
+      "line": 9,
       "offset": 22,
       "length": 6,
       "code": {
-        "startLine": 5,
+        "startLine": 7,
         "length": 6,
-        "offset": 36,
-        "surroundingCode": "{description}\n\nThe user can choose _Create PDF from current file_ from the editor's action toolbar to convert the file shown in the current AsciiDoc editor to a PDF using Asciidoctor PDF version 2.1.x.\nIf creation of the PDF file succeeds, the plugin opens the PDF in the system's PDF viewer.\nTo find out more how to configure the output and formatting, visit https://asciidoctor.org/docs/asciidoctor-pdf/."
+        "offset": 38,
+        "surroundingCode": "== How it works\n\nThe user can choose _Create PDF from current file_ from the editor's action toolbar to convert the file shown in the current AsciiDoc editor to a PDF using Asciidoctor PDF.\n\nIf creation of the PDF file succeeds, the plugin opens the PDF in the system's PDF viewer."
       }
     }
   ],
@@ -4383,7 +4412,94 @@
     "inspectionName": "GrazieInspection",
     "baselineState": "new"
   },
-  "hash": "ac4dc3e7621fee5fb1d22ad797c7738e1919729735b7b73b37ebf4b453ff0575"
+  "hash": "b3d4bea8fec535a9016ae707aa16d044d9b4e4d1a489f43ff9c3420fde514e2a"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/creating-pdf.adoc",
+      "language": "AsciiDoc",
+      "line": 19,
+      "offset": 40,
+      "length": 11,
+      "code": {
+        "startLine": 17,
+        "length": 11,
+        "offset": 98,
+        "surroundingCode": "\nPlugin version 0.37.24+ uses Asciidoctor PDF version 2.1.\nTo find out about the exact version of Asciidoctor PDF used in the plugin a user has installed, create a minimal PDF and look at the document properties as shown in the PDF viewer. The application property shows the exact version of Asciidoctor PDF used to create the document.\n\nimage::features/advanced/pdf-document-properties.png[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
+  },
+  "hash": "4165e3d8f3e286899613ed5d1ae7a5c247404c3387115b4023d5268061da6619"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/creating-pdf.adoc",
+      "language": "AsciiDoc",
+      "line": 19,
+      "offset": 234,
+      "length": 11,
+      "code": {
+        "startLine": 17,
+        "length": 11,
+        "offset": 292,
+        "surroundingCode": "\nPlugin version 0.37.24+ uses Asciidoctor PDF version 2.1.\nTo find out about the exact version of Asciidoctor PDF used in the plugin a user has installed, create a minimal PDF and look at the document properties as shown in the PDF viewer. The application property shows the exact version of Asciidoctor PDF used to create the document.\n\nimage::features/advanced/pdf-document-properties.png[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
+  },
+  "hash": "ebc804f284822327de1c5e958c848e6ce5aad1dba2cf751d46bbc865dba6da64"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Settings \\| Editor \\| Natural Languages \\| Grammar](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/creating-pdf.adoc",
+      "language": "AsciiDoc",
+      "line": 23,
+      "offset": 45,
+      "length": 11,
+      "code": {
+        "startLine": 21,
+        "length": 11,
+        "offset": 100,
+        "surroundingCode": "image::features/advanced/pdf-document-properties.png[]\n\nA full history of the different versions of Asciidoctor PDF included in each plugin version is available in https://github.com/asciidoctor/asciidoctor-intellij-plugin/blob/main/CHANGELOG.adoc[the changelog of the plugin].\n\n== Downloading Asciidoctor PDF support"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
+  },
+  "hash": "5c03d36f6657ab383f9915695352d358283b4a78b87753a276d36993170361a5"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
