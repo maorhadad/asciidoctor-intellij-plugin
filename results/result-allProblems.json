@@ -2401,11 +2401,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/creating-pdf.adoc",
       "language": "AsciiDoc",
-      "line": 23,
+      "line": 24,
       "offset": 16,
       "length": 28,
       "code": {
-        "startLine": 21,
+        "startLine": 22,
         "length": 28,
         "offset": 71,
         "surroundingCode": "image::features/advanced/pdf-document-properties.png[]\n\nA full history of the different versions of Asciidoctor PDF included in each plugin version is available in https://github.com/asciidoctor/asciidoctor-intellij-plugin/blob/main/CHANGELOG.adoc[the changelog of the plugin].\n\n== Downloading Asciidoctor PDF support"
@@ -2417,7 +2417,7 @@
     "inspectionName": "Style",
     "baselineState": "new"
   },
-  "hash": "f65e61566f7ccc41a7b3c7ac4707193ca2c21a60049650d2b5b9925e56cf5f16"
+  "hash": "8e896def7912c3bf2e482f3573edbcde91778464d38e7e8824cd69d07350cf53"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4130,11 +4130,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/creating-html.adoc",
       "language": "AsciiDoc",
-      "line": 8,
+      "line": 7,
       "offset": 22,
       "length": 6,
       "code": {
-        "startLine": 6,
+        "startLine": 5,
         "length": 6,
         "offset": 36,
         "surroundingCode": "{description}\n\nThe user can choose _Create HTML from current file_ from the editor's action toolbar to convert the file to the HTML format.\nIf creation of the HTML file succeeds, the exported file is opened in the system's default browser.\n"
@@ -4146,7 +4146,7 @@
     "inspectionName": "GrazieInspection",
     "baselineState": "new"
   },
-  "hash": "634dced149aa55bba69928b4002c2563e29913a8457402e1e68e7b54bc2526fe"
+  "hash": "e4dfab15e335d8f840765f7d4c1f060ca5b77b71ca0cac4c64083cf3095d120c"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4367,11 +4367,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/creating-pdf.adoc",
       "language": "AsciiDoc",
-      "line": 9,
+      "line": 10,
       "offset": 29,
       "length": 3,
       "code": {
-        "startLine": 7,
+        "startLine": 8,
         "length": 3,
         "offset": 45,
         "surroundingCode": "== How it works\n\nThe user can choose _Create PDF from current file_ from the editor's action toolbar to convert the file shown in the current AsciiDoc editor to a PDF using Asciidoctor PDF.\n\nIf creation of the PDF file succeeds, the plugin opens the PDF in the system's PDF viewer."
@@ -4383,7 +4383,7 @@
     "inspectionName": "GrazieInspection",
     "baselineState": "new"
   },
-  "hash": "b3d33cfdae961e02b83091cf18091929d9a0b083cd503c2b644d9606b00c8615"
+  "hash": "2e54599583a2d2f68f1c6762f762f051fb30bf06b049bdf2e51120d667e41d46"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4396,11 +4396,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/creating-pdf.adoc",
       "language": "AsciiDoc",
-      "line": 9,
+      "line": 10,
       "offset": 22,
       "length": 6,
       "code": {
-        "startLine": 7,
+        "startLine": 8,
         "length": 6,
         "offset": 38,
         "surroundingCode": "== How it works\n\nThe user can choose _Create PDF from current file_ from the editor's action toolbar to convert the file shown in the current AsciiDoc editor to a PDF using Asciidoctor PDF.\n\nIf creation of the PDF file succeeds, the plugin opens the PDF in the system's PDF viewer."
@@ -4412,7 +4412,7 @@
     "inspectionName": "GrazieInspection",
     "baselineState": "new"
   },
-  "hash": "b3d4bea8fec535a9016ae707aa16d044d9b4e4d1a489f43ff9c3420fde514e2a"
+  "hash": "55de235d3d5491210011b968a3cd08c179c272b446717a094f950dc9b0ca926b"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4425,11 +4425,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/creating-pdf.adoc",
       "language": "AsciiDoc",
-      "line": 19,
+      "line": 20,
       "offset": 40,
       "length": 11,
       "code": {
-        "startLine": 17,
+        "startLine": 18,
         "length": 11,
         "offset": 98,
         "surroundingCode": "\nPlugin version 0.37.24+ uses Asciidoctor PDF version 2.1.\nTo find out about the exact version of Asciidoctor PDF used in the plugin a user has installed, create a minimal PDF and look at the document properties as shown in the PDF viewer. The application property shows the exact version of Asciidoctor PDF used to create the document.\n\nimage::features/advanced/pdf-document-properties.png[]"
@@ -4441,7 +4441,7 @@
     "inspectionName": "GrazieInspection",
     "baselineState": "new"
   },
-  "hash": "4165e3d8f3e286899613ed5d1ae7a5c247404c3387115b4023d5268061da6619"
+  "hash": "57652d3a789513a041a4eeea7e738c1f70c044b843b95df1436f0b4bc0ccbb1b"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4454,11 +4454,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/creating-pdf.adoc",
       "language": "AsciiDoc",
-      "line": 19,
+      "line": 20,
       "offset": 234,
       "length": 11,
       "code": {
-        "startLine": 17,
+        "startLine": 18,
         "length": 11,
         "offset": 292,
         "surroundingCode": "\nPlugin version 0.37.24+ uses Asciidoctor PDF version 2.1.\nTo find out about the exact version of Asciidoctor PDF used in the plugin a user has installed, create a minimal PDF and look at the document properties as shown in the PDF viewer. The application property shows the exact version of Asciidoctor PDF used to create the document.\n\nimage::features/advanced/pdf-document-properties.png[]"
@@ -4470,7 +4470,7 @@
     "inspectionName": "GrazieInspection",
     "baselineState": "new"
   },
-  "hash": "ebc804f284822327de1c5e958c848e6ce5aad1dba2cf751d46bbc865dba6da64"
+  "hash": "a1e9d5922d770a39221c3344f34974176c4c02b96ebbbe1e694ab71b6298bd54"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4483,11 +4483,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/creating-pdf.adoc",
       "language": "AsciiDoc",
-      "line": 23,
+      "line": 24,
       "offset": 45,
       "length": 11,
       "code": {
-        "startLine": 21,
+        "startLine": 22,
         "length": 11,
         "offset": 100,
         "surroundingCode": "image::features/advanced/pdf-document-properties.png[]\n\nA full history of the different versions of Asciidoctor PDF included in each plugin version is available in https://github.com/asciidoctor/asciidoctor-intellij-plugin/blob/main/CHANGELOG.adoc[the changelog of the plugin].\n\n== Downloading Asciidoctor PDF support"
@@ -4499,7 +4499,7 @@
     "inspectionName": "GrazieInspection",
     "baselineState": "new"
   },
-  "hash": "5c03d36f6657ab383f9915695352d358283b4a78b87753a276d36993170361a5"
+  "hash": "78b8069de981e68aca7a3ec241b8289965020fefd22d63c4ca4cb2a05bf13476"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
