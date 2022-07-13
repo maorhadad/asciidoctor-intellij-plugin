@@ -1593,13 +1593,13 @@
       "path": "users-guide/modules/ROOT/pages/features/advanced/asciidoctorconfig-file.adoc",
       "language": "AsciiDoc",
       "line": 11,
-      "offset": 138,
+      "offset": 137,
       "length": 5,
       "code": {
         "startLine": 9,
         "length": 5,
-        "offset": 298,
-        "surroundingCode": "There are usually specific settings for each project that apply to all AsciiDoc sources: these might be the image directory or activating experimental options.\n\nWhile documents have all the settings in your root document, files that it includes will not have these settings when they render in the IDE's preview.\n\n== Solution"
+        "offset": 297,
+        "surroundingCode": "There are usually specific settings for each project that apply to all AsciiDoc sources: these might be the image directory or activating experimental options.\n\nWhile documents have all the settings in the root document, files that it includes will not have these settings when they render in the IDE's preview.\n\n== Solution"
       }
     }
   ],
@@ -1609,7 +1609,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "5d118e3d284f00c142a66d9cdcd5630ec856d257215adb4501a8d93b49f964d2"
+  "hash": "d8ef1c74ed185c89b4b429921177764c213f8a22585b944da55f5cffdd6b5d0d"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1639,7 +1639,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "2bec2e205bcc6456daa68333e383992a29ba22577c11862968cb0b75e65d00f6"
+  "hash": "815a4d7ae7d31010f25db974f0f1c5c324e97af5e8b44f7e48461c880b82c93e"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1669,7 +1669,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "bca325c437beacc161bb9a3596da663d55a8deec22b52270da794a7fcca927d4"
+  "hash": "abe6ef0c67dc81cd5d26dc66f1d02293f74f457c2c27d2cedf1b6fea90e7f0e0"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1699,7 +1699,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "862a48e71d50c784384530f626cc5fee148cc8403b3419f00f12353f246ff0b9"
+  "hash": "387eb1a5bf6e7f047cb5c580d152a9bba0aa9bbe00b7d74f2d1153f6788fec89"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2274,66 +2274,6 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'ifeval'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 32,
-      "offset": 2,
-      "length": 6,
-      "code": {
-        "startLine": 30,
-        "length": 6,
-        "offset": 24,
-        "surroundingCode": "[source,asciidoc]\n----\n\\ifeval::[{env}!=idea]\nrender this text WHEN NOT running IntelliJ Asciidoctor Plugin\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "e06620fc029728488f5cd97d6586d60c385686735cac956ac02c306e2c57ab9b"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'ifeval'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 36,
-      "offset": 2,
-      "length": 6,
-      "code": {
-        "startLine": 34,
-        "length": 6,
-        "offset": 13,
-        "surroundingCode": "\\endif::[]\n\n\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "c93694662a02ac1050144d7e143c901cc415e240625d87479c2c0909d797dcac"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
   "comment": "Typo: In word 'ifndef'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
@@ -2389,6 +2329,66 @@
     "baselineState": "unchanged"
   },
   "hash": "a729b46c0e468f99a8bbf7bf98f8cfc00c5de4a8ccc29e16aeef38f95777478c"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifeval'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 32,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 30,
+        "length": 6,
+        "offset": 24,
+        "surroundingCode": "[source,asciidoc]\n----\n\\ifeval::[{env}!=idea]\nrender this text WHEN NOT running IntelliJ Asciidoctor Plugin\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "e06620fc029728488f5cd97d6586d60c385686735cac956ac02c306e2c57ab9b"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifeval'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 36,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 34,
+        "length": 6,
+        "offset": 13,
+        "surroundingCode": "\\endif::[]\n\n\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "c93694662a02ac1050144d7e143c901cc415e240625d87479c2c0909d797dcac"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3098,35 +3098,6 @@
       "path": "users-guide/modules/ROOT/pages/installation.adoc",
       "language": "AsciiDoc",
       "line": 126,
-      "offset": 40,
-      "length": 4,
-      "code": {
-        "startLine": 124,
-        "length": 4,
-        "offset": 169,
-        "surroundingCode": "image::web-page-marketplace.png[JetBrains Marketplace showing AsciiDoc plugin]\n. Choose the version tab if it isn't pre-selected.\n. Download the version compatible with your IDE's version (usually the latest version if your IDE is up-to-date).\n. Open the IDE's setting via menu:File[Settings...]. +\nThis opens the following menu:"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "b6d4305246f02273e1cd65b5286b709cccab4c5416f32c716b3750a2d3551f97"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'your'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/installation.adoc",
-      "language": "AsciiDoc",
-      "line": 126,
       "offset": 90,
       "length": 4,
       "code": {
@@ -3143,6 +3114,35 @@
     "baselineState": "new"
   },
   "hash": "d6f5a4d2ce8ba2a0f44b22ee214ad14af68e881d53b6be294ab777782d9d8542"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Style",
+  "severity": "High",
+  "comment": "Don't use 'your'",
+  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/installation.adoc",
+      "language": "AsciiDoc",
+      "line": 126,
+      "offset": 40,
+      "length": 4,
+      "code": {
+        "startLine": 124,
+        "length": 4,
+        "offset": 169,
+        "surroundingCode": "image::web-page-marketplace.png[JetBrains Marketplace showing AsciiDoc plugin]\n. Choose the version tab if it isn't pre-selected.\n. Download the version compatible with your IDE's version (usually the latest version if your IDE is up-to-date).\n. Open the IDE's setting via menu:File[Settings...]. +\nThis opens the following menu:"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "Style",
+    "baselineState": "new"
+  },
+  "hash": "b6d4305246f02273e1cd65b5286b709cccab4c5416f32c716b3750a2d3551f97"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4018,35 +4018,6 @@
   "category": "Proofreading",
   "type": "Style",
   "severity": "High",
-  "comment": "Don't use 'your'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/faq/errno-enoent.adoc",
-      "language": "AsciiDoc",
-      "line": 54,
-      "offset": 30,
-      "length": 4,
-      "code": {
-        "startLine": 52,
-        "length": 4,
-        "offset": 35,
-        "surroundingCode": "----\n\nUsers can open the file from your IDE via menu:Help[Edit custom VM options...].\n\nThe https://www.jetbrains.com/help/idea/tuning-the-ide.html[online documentation of IntelliJ] explains how to find this file in the local file system."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "7cf18f310d415ddd73f4cea8b3491a0d7402b3639baedbc3fcaa91d3c6b766a0"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
   "comment": "Don't use 'you'",
   "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
   "sources": [
@@ -4054,14 +4025,14 @@
       "type": "file",
       "path": "contributors-guide/modules/ROOT/pages/docs/change-documentation-theme.adoc",
       "language": "AsciiDoc",
-      "line": 8,
+      "line": 19,
       "offset": 4,
       "length": 3,
       "code": {
-        "startLine": 6,
+        "startLine": 17,
         "length": 3,
-        "offset": 21,
-        "surroundingCode": "== Prerequisites\n\nIf you want to preview your changes locally:\n\n. https://nodejs.org/en/[Node] environment"
+        "offset": 192,
+        "surroundingCode": ". Fork and clone the plugin's repository: https://github.com/asciidoctor/asciidoctor-intellij-plugin to a folder named _asciidoctor-intellij-plugin_ as a sibling to the first repository.\n+\nIf you choose a different folder, you'll need to adapt the folders in _antora-playbook-author.yml_.\n. Change content for the theme in files _antora-playbook.yml_ and _antora-playbook-author.yml_ or sub-folder __antora_\n. Test your changes (recommended for every non-trivial change):"
       }
     }
   ],
@@ -4070,36 +4041,7 @@
     "inspectionName": "Style",
     "baselineState": "new"
   },
-  "hash": "0774f6ab834926b2fe12ea4785f52a7a4c72674ad76a41dc4dcf2bd53fdd6a18"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'your'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/docs/change-documentation-theme.adoc",
-      "language": "AsciiDoc",
-      "line": 8,
-      "offset": 24,
-      "length": 4,
-      "code": {
-        "startLine": 6,
-        "length": 4,
-        "offset": 41,
-        "surroundingCode": "== Prerequisites\n\nIf you want to preview your changes locally:\n\n. https://nodejs.org/en/[Node] environment"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "8c54ad693592da5d04d067245ed2bace91077fb775222d0cfeb5145a445cc55f"
+  "hash": "d729a5f92df3804690e2f4bed7ead4724171d4982ce84702989aa94998b5778c"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4128,36 +4070,7 @@
     "inspectionName": "Style",
     "baselineState": "new"
   },
-  "hash": "d7e99533919951641f34af23e3868f4965791422d12e880552e1099560ca0413"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'you'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/docs/change-documentation-theme.adoc",
-      "language": "AsciiDoc",
-      "line": 19,
-      "offset": 4,
-      "length": 3,
-      "code": {
-        "startLine": 17,
-        "length": 3,
-        "offset": 192,
-        "surroundingCode": ". Fork and clone the plugin's repository: https://github.com/asciidoctor/asciidoctor-intellij-plugin to a folder named _asciidoctor-intellij-plugin_ as a sibling to the first repository.\n+\nIf you choose a different folder, you'll need to adapt the folders in _antora-playbook-author.yml_.\n. Change content for the theme in files _antora-playbook.yml_ and _antora-playbook-author.yml_ or sub-folder __antora_\n. Test your changes (recommended for every non-trivial change):"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "5c106e5706635de1c92e44ae5275e804147282aad453b0f3c11fcb7477f61bcd"
+  "hash": "4360aff7594c37e8fc3be16c83a0696a2c7bb13daa2d45a97606567edd5e65e9"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4186,7 +4099,7 @@
     "inspectionName": "Style",
     "baselineState": "new"
   },
-  "hash": "cd60e398c91149ad7b80a906ad558376b831e8ff13007c8f78651682ef3c6d6b"
+  "hash": "a9958d59e6b2c82a3b9fc94c6360c210d803836a0765a0d3723078d5f7c8f0ff"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4548,35 +4461,6 @@
       "path": "users-guide/modules/ROOT/pages/index.adoc",
       "language": "AsciiDoc",
       "line": 34,
-      "offset": 90,
-      "length": 4,
-      "code": {
-        "startLine": 32,
-        "length": 4,
-        "offset": 138,
-        "surroundingCode": "== How this plugin helps writers and developers\n\nThis plugin adds AsciiDoc functionality to your IDE to make your productive when writing your technical documentation.\n\nIt provides the writer with..."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "24cba1c921c4c24b925988b239bd17172de79a9056ce50f2b1e1b5861813e3de"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'your'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/index.adoc",
-      "language": "AsciiDoc",
-      "line": 34,
       "offset": 44,
       "length": 4,
       "code": {
@@ -4593,6 +4477,35 @@
     "baselineState": "new"
   },
   "hash": "2af785c13beb4b11dfff7362736df911700c8b10ccf92e16733933dbd452d182"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Style",
+  "severity": "High",
+  "comment": "Don't use 'your'",
+  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/index.adoc",
+      "language": "AsciiDoc",
+      "line": 34,
+      "offset": 90,
+      "length": 4,
+      "code": {
+        "startLine": 32,
+        "length": 4,
+        "offset": 138,
+        "surroundingCode": "== How this plugin helps writers and developers\n\nThis plugin adds AsciiDoc functionality to your IDE to make your productive when writing your technical documentation.\n\nIt provides the writer with..."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "Style",
+    "baselineState": "new"
+  },
+  "hash": "24cba1c921c4c24b925988b239bd17172de79a9056ce50f2b1e1b5861813e3de"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -5012,35 +4925,6 @@
       "path": "contributors-guide/modules/ROOT/pages/coder/lexing-and-parsing.adoc",
       "language": "AsciiDoc",
       "line": 140,
-      "offset": 41,
-      "length": 3,
-      "code": {
-        "startLine": 138,
-        "length": 3,
-        "offset": 230,
-        "surroundingCode": "Currently, several tokens have the same highlighting `ASCIIDOC_MARKER`, so users have the same color for the pointy brackets around references (`\\<<ref>>`)and markers for bold (`\\*bold*`).\n\nOnce you add a new `TextAttributesKey`, you should either:\n\n. reference an existing color (like `ASCIIDOC_COMMENT` references `DefaultLanguageHighlighterColors.LINE_COMMENT`) OR"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "eea40c60f75307f8e9056911f8b1c9995dbefe42d7ac5131525fea696a3810a1"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'you'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/coder/lexing-and-parsing.adoc",
-      "language": "AsciiDoc",
-      "line": 140,
       "offset": 6,
       "length": 3,
       "code": {
@@ -5057,6 +4941,35 @@
     "baselineState": "new"
   },
   "hash": "94a14325d0e9d0a86d329349d5d9b758315dd78489f0aa8d94e8a774078097eb"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Style",
+  "severity": "High",
+  "comment": "Don't use 'you'",
+  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "contributors-guide/modules/ROOT/pages/coder/lexing-and-parsing.adoc",
+      "language": "AsciiDoc",
+      "line": 140,
+      "offset": 41,
+      "length": 3,
+      "code": {
+        "startLine": 138,
+        "length": 3,
+        "offset": 230,
+        "surroundingCode": "Currently, several tokens have the same highlighting `ASCIIDOC_MARKER`, so users have the same color for the pointy brackets around references (`\\<<ref>>`)and markers for bold (`\\*bold*`).\n\nOnce you add a new `TextAttributesKey`, you should either:\n\n. reference an existing color (like `ASCIIDOC_COMMENT` references `DefaultLanguageHighlighterColors.LINE_COMMENT`) OR"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "Style",
+    "baselineState": "new"
+  },
+  "hash": "eea40c60f75307f8e9056911f8b1c9995dbefe42d7ac5131525fea696a3810a1"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -6077,35 +5990,6 @@
   "category": "Proofreading",
   "type": "Style",
   "severity": "High",
-  "comment": "Don't use 'your'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/asciidoctorconfig-file.adoc",
-      "language": "AsciiDoc",
-      "line": 11,
-      "offset": 42,
-      "length": 4,
-      "code": {
-        "startLine": 9,
-        "length": 4,
-        "offset": 202,
-        "surroundingCode": "There are usually specific settings for each project that apply to all AsciiDoc sources: these might be the image directory or activating experimental options.\n\nWhile documents have all the settings in your root document, files that it includes will not have these settings when they render in the IDE's preview.\n\n== Solution"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "f38d69695ead6551e4431093397ef9d65ffed6d3a65e2dab907c3dc34d001645"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
   "comment": "Don't use 'you'",
   "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
   "sources": [
@@ -7097,35 +6981,6 @@
   "sources": [
     {
       "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/asciidoctor-extensions.adoc",
-      "language": "AsciiDoc",
-      "line": 15,
-      "offset": 135,
-      "length": 4,
-      "code": {
-        "startLine": 13,
-        "length": 4,
-        "offset": 148,
-        "surroundingCode": "== Situation\n\nWhen there are extensions for Asciidoctor used in a command line build, users want to see their effect on the preview rendered within your JetBrains IDE.\n\nTo find out more about extensions, have a look at the https://github.com/asciidoctor/asciidoctor-extensions-lab[Asciidoctor Extensions Lab] or the https://asciidoctor.org/docs/extensions/[Asciidoctor Extensions List]."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "079d2cd33314044a16c5e0da41f5ba2e1c2749f3827b185465c1373e7aeded86"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'your'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/preview/jcef-preview.adoc",
       "language": "AsciiDoc",
       "line": 42,
@@ -7261,383 +7116,6 @@
     "baselineState": "new"
   },
   "hash": "fd6529295de7d26496c0ec5cb66a92ce00be00d58055b7be83146d68b53c6fdb"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'You'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/coder/building-and-running.adoc",
-      "language": "AsciiDoc",
-      "line": 48,
-      "offset": 1,
-      "length": 3,
-      "code": {
-        "startLine": 46,
-        "length": 3,
-        "offset": 11,
-        "surroundingCode": "=== About\n\nYou most likely want to do this for fast turnaround times when running single tests, and debugging both tests and the plugin itself.\nPlease use IntelliJ IDEA as an IDE for developing on this plugin.\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "c4c664007159c633f710d3c043594a3d965f762147d20b58478c9013a3d6106a"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'Please'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/coder/building-and-running.adoc",
-      "language": "AsciiDoc",
-      "line": 49,
-      "offset": 1,
-      "length": 6,
-      "code": {
-        "startLine": 47,
-        "length": 6,
-        "offset": 134,
-        "surroundingCode": "\nYou most likely want to do this for fast turnaround times when running single tests, and debugging both tests and the plugin itself.\nPlease use IntelliJ IDEA as an IDE for developing on this plugin.\n\nYou can use the most recent version of the IDE."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "cf6d161d8c77a44813ae3719c8a593221b04112f3206fa990dc801a1c4809283"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'You'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/coder/building-and-running.adoc",
-      "language": "AsciiDoc",
-      "line": 51,
-      "offset": 1,
-      "length": 3,
-      "code": {
-        "startLine": 49,
-        "length": 3,
-        "offset": 67,
-        "surroundingCode": "Please use IntelliJ IDEA as an IDE for developing on this plugin.\n\nYou can use the most recent version of the IDE.\nThe `build.gradle` file specifies the minimum version for all users of the plugin, but when developing you are free to use a more recent version.\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "5eea4df934ef7f228c88e31066bc089740aa455c9e9e4081b334005e6147930f"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'you'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/coder/building-and-running.adoc",
-      "language": "AsciiDoc",
-      "line": 52,
-      "offset": 104,
-      "length": 3,
-      "code": {
-        "startLine": 50,
-        "length": 3,
-        "offset": 152,
-        "surroundingCode": "\nYou can use the most recent version of the IDE.\nThe `build.gradle` file specifies the minimum version for all users of the plugin, but when developing you are free to use a more recent version.\n\n=== Setup Tasks"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "74769362567f372d01f456f3ba3d6e321924f0d2c1c7075e5d09f50af2ab699a"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'you'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/coder/building-and-running.adoc",
-      "language": "AsciiDoc",
-      "line": 58,
-      "offset": 91,
-      "length": 3,
-      "code": {
-        "startLine": 56,
-        "length": 3,
-        "offset": 156,
-        "surroundingCode": ". Checkout the GitHub project and import it as a gradle project.\n\n. Ensure to install the following plugins (your IDE should recommend installing them once you open the project):\n+\n--"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "9434ce90564fd187a604890586a960155a48f942a07ceb164be69280a5edae86"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'your'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/coder/building-and-running.adoc",
-      "language": "AsciiDoc",
-      "line": 58,
-      "offset": 44,
-      "length": 4,
-      "code": {
-        "startLine": 56,
-        "length": 4,
-        "offset": 109,
-        "surroundingCode": ". Checkout the GitHub project and import it as a gradle project.\n\n. Ensure to install the following plugins (your IDE should recommend installing them once you open the project):\n+\n--"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "53d0fa8113b165185126bfa785c1da1849bf44bfe1a612365bafdae0714d94fa"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'Please'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/coder/building-and-running.adoc",
-      "language": "AsciiDoc",
-      "line": 86,
-      "offset": 1,
-      "length": 6,
-      "code": {
-        "startLine": 84,
-        "length": 6,
-        "offset": 158,
-        "surroundingCode": "\nStill, when running via the IDE, the tests in _AsciiDocGrammarInspectionTest_ fail with an _ExceptionInInitializerError_ when loading language tool classes.\nPlease run these tests using the CLI command _gradlew check_ as described above.\n\n=== Validation Tasks"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "4d1557d4be39e372d174749fd09635fe8a0a7f52228320b8b6e22c41de0c31a1"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'your'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/coder/building-and-running.adoc",
-      "language": "AsciiDoc",
-      "line": 90,
-      "offset": 36,
-      "length": 4,
-      "code": {
-        "startLine": 88,
-        "length": 4,
-        "offset": 57,
-        "surroundingCode": "=== Validation Tasks\n\nPerform these tasks to ensure that your setup is ready for development.\n\n. Run the test cases from `AsciiDocLexerTest.java` to see that running tests works in your setup."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "439dbe8f0074d9a0377902992f61b88be24d8a4af349ec97d930007daa4656d1"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'your'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/coder/building-and-running.adoc",
-      "language": "AsciiDoc",
-      "line": 92,
-      "offset": 87,
-      "length": 4,
-      "code": {
-        "startLine": 90,
-        "length": 4,
-        "offset": 159,
-        "surroundingCode": "Perform these tasks to ensure that your setup is ready for development.\n\n. Run the test cases from `AsciiDocLexerTest.java` to see that running tests works in your setup.\n\n. There are two ready-to-go run configurations checked in to git that you can run:"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "3b7a6a914ddc6a3dad0dbc51034558c59c48b59cc28009c66f2517504365b275"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'you'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/coder/building-and-running.adoc",
-      "language": "AsciiDoc",
-      "line": 94,
-      "offset": 71,
-      "length": 3,
-      "code": {
-        "startLine": 92,
-        "length": 3,
-        "offset": 169,
-        "surroundingCode": ". Run the test cases from `AsciiDocLexerTest.java` to see that running tests works in your setup.\n\n. There are two ready-to-go run configurations checked in to git that you can run:\n+\n--"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "941028b8c09c4443ca454d9c0e37ca232143ac7e88331a0f2f5639733dc6b244"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'you'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/coder/building-and-running.adoc",
-      "language": "AsciiDoc",
-      "line": 97,
-      "offset": 54,
-      "length": 3,
-      "code": {
-        "startLine": 95,
-        "length": 3,
-        "offset": 58,
-        "surroundingCode": "+\n--\nbuildPlugin:: building the plugin as a ZIP-file that you can then install locally into your IDE\n\nrunIde:: runs an IntelliJ community edition with the AsciiDoc plugin enabled."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "2981399159202db987269f5713e561c684f26db74f3317eaa34be9d48a2cee08"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'your'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/coder/building-and-running.adoc",
-      "language": "AsciiDoc",
-      "line": 97,
-      "offset": 88,
-      "length": 4,
-      "code": {
-        "startLine": 95,
-        "length": 4,
-        "offset": 92,
-        "surroundingCode": "+\n--\nbuildPlugin:: building the plugin as a ZIP-file that you can then install locally into your IDE\n\nrunIde:: runs an IntelliJ community edition with the AsciiDoc plugin enabled."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "e1b40388872cba86bb63ad2b53adab1186422710c5593d67b86a5b79bb3e49aa"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Style",
-  "severity": "High",
-  "comment": "Don't use 'You'",
-  "detailsInfo": "Check the writing style defined in:\n\n* Grazie Professional rule files (e.g. `.grazie.en.yaml` for English) for this project or its specific subdirectories. To create such a file, invoke **New** menu on any (e.g. root) directory of the project.\n* *Style* rules in *Editor \\| Natural languages \\| Rules* settings\n\nThis inspection only returns results via **Code \\| Analyze Code \\| Run Inspection By Name...** or in offline analysis. Editor highlighting of style issues is performed independently of this inspection's settings.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "contributors-guide/modules/ROOT/pages/coder/building-and-running.adoc",
-      "language": "AsciiDoc",
-      "line": 100,
-      "offset": 1,
-      "length": 3,
-      "code": {
-        "startLine": 98,
-        "length": 3,
-        "offset": 79,
-        "surroundingCode": "\nrunIde:: runs an IntelliJ community edition with the AsciiDoc plugin enabled.\nYou can choose to run it in the debug mode.\n--\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "Style",
-    "baselineState": "new"
-  },
-  "hash": "69f6337b73c136cdd42d39c3d34bf99f1bdb1e3075dad75fa352d04cbec0fcff"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -9601,7 +9079,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "4e29b55744291d74ad966ccf20c6ce082c0ba8059939505431cf51f119a667f1"
+  "hash": "5d21a8d3a367aada65b3e04cea62a08a2acffb1c964cfc62b8b0bcf685331cde"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -9631,7 +9109,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "1ec5de5424eeef19323a7957d4ca7f96977442b7a004387ac4109dc6b614589c"
+  "hash": "ff080befebabdcfe80352f12d3f3914bdaaf8ceb99dfa6f461b46eca1348ba02"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -10045,7 +9523,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "0472f84c144b4142c259fdc333cb0b0c65d7687081f62a02b7d70dab1767c34a"
+  "hash": "ac61be2182611ffdd234cf310cd1b530d28ab6a84903dc106b462bfbe2e0bafc"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
